@@ -1,0 +1,277 @@
+.innerContainer{
+width: 95%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.textssContainer{
+    width: 45%;
+    margin-top: 20rem;
+}
+
+
+.formContainer{
+    width: 50%;
+    border-radius: 8px;
+    background: #FFF;
+    height: 600px;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+.textssContainer h1{
+color: var(--white, #FFF);
+font-size: 40px;
+font-family: Lato;
+font-weight: 700;
+line-height: 140%; 
+}
+
+form input{
+width: 90%;
+border-radius: 8px;
+border: 1px solid rgba(117, 117, 117, 1);
+height: 45.807px;
+background: rgba(225, 225, 225, 1);
+align-items: center;
+gap: .5rem;
+margin-bottom: 2rem;
+color: #757575;
+font-size: 16px;
+font-family: Lato;
+padding-left: 1rem;
+}
+
+.Messages{
+    width: 90%;
+    border-radius: 8px;
+    height: 120px;
+    background: rgba(225, 225, 225, 1);
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: rem;
+    color: #757575;
+    font-size: 16px;
+    font-family: Lato;
+    padding-bottom: 2rem;
+    }
+
+::-webkit-input-placeholder{
+    color: black;
+    padding-left: .1rem;
+}
+
+form h3{
+color: #1429A9;
+font-size: 37.445px;
+font-family: Lato;
+font-weight: 700;
+line-height: 140%;
+margin-top: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.formContainer button{
+border-radius: 8px;
+background: #1429A9;
+height: 56.168px;
+width: 90%;
+color: #FFF;
+font-size: 24px;
+font-family: Lato;
+font-weight: 700;
+line-height: 133.5%;
+cursor: pointer;
+}
+
+@media(max-width:1024px){
+    .innerContainer{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        .textContainer{
+            width: 40%;
+        }
+        
+        
+        .formContainer{
+            width: 55%;
+            border-radius: 8px;
+            background: #FFF;
+            height: 600px;
+            margin-top: 3rem;
+            text-align: center;
+        
+        }
+        .textssContainer h1{
+        color: var(--white, #FFF);
+        font-size: 25px;
+        font-family: Lato;
+        font-weight: 700;
+        line-height: 140%; 
+        }
+}
+@media(max-width:768px){
+    .innerContainer{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        .textssContainer{
+            width: 50%;
+        }
+        .formContainer{
+            width: 60%;
+            border-radius: 8px;
+            background: #FFF;
+            height: 515px;
+            margin-top: 3rem;
+            text-align: center;
+        
+        }
+        .textssContainer h1{
+        color: var(--white, #FFF);
+        font-size: 20px;
+        font-family: Lato;
+        font-weight: 700;
+        line-height: 140%; 
+        }
+       form input{
+            width: 90%;
+            border-radius: 8px;
+            border: 1px solid rgba(117, 117, 117, 1);
+            height: 35px;
+            background: rgba(225, 225, 225, 1);
+            align-items: center;
+            gap: .5rem;
+            margin-bottom: 1rem;
+            color: #757575;
+            font-size: 14px;
+            font-family: Lato;
+            padding-left: 1rem;
+            }
+            
+        .Messages{
+                width: 90%;
+                border-radius: 8px;
+                height: 100px;
+                background: rgba(225, 225, 225, 1);
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1rem;
+                color: #757575;
+                font-size: 14px;
+                font-family: Lato;
+                padding-bottom: 3rem;
+                }
+            
+            ::-webkit-input-placeholder{
+                color: black;
+                padding-left: .1rem;
+            }
+            
+            form h3{
+            color: #1429A9;
+            font-size: 25px;
+            font-family: Lato;
+            font-weight: 700;
+            line-height: 140%;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            }
+            
+            .formContainer button{
+            border-radius: 8px;
+            background: #1429A9;
+            height: 40px;
+            width: 70%;
+            color: #FFF;
+            font-size: 14px;
+            font-family: Lato;
+            font-weight: 700;
+            line-height: 133.5%;
+            cursor: pointer;
+            }
+}
+@media(max-width:425px){
+    .innerContainer{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        }
+        .textssContainer{
+           display: none;
+        }
+        .formContainer{
+            width: 100%;
+            border-radius: 8px;
+            background: #FFF;
+            height: 500px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        form input{
+            width: 90%;
+            border-radius: 8px;
+            border: 1px solid rgba(117, 117, 117, 1);
+            height: 35px;
+            background: rgba(225, 225, 225, 1);
+            align-items: center;
+            gap: .5rem;
+            margin-bottom: 2rem;
+            color: #757575;
+            font-size: 12px;
+            font-family: Lato;
+            padding-left: 1rem;
+            }
+            
+        .Messages{
+                width: 90%;
+                border-radius: 8px;
+                height: 100px;
+                background: rgba(225, 225, 225, 1);
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: rem;
+                color: #757575;
+                font-size: 12px;
+                font-family: Lato;
+                padding-bottom: 3rem;
+                }
+            
+            ::-webkit-input-placeholder{
+                color: black;
+                padding-left: .1rem;
+            }
+            
+            form h3{
+            color: #1429A9;
+            font-size: 25px;
+            font-family: Lato;
+            font-weight: 700;
+            line-height: 140%;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            }
+            
+            .formContainer button{
+            border-radius: 8px;
+            background: #1429A9;
+            height: 45px;
+            width: 80%;
+            color: #FFF;
+            font-size: 16px;
+            font-family: Lato;
+            font-weight: 700;
+            line-height: 133.5%;
+            cursor: pointer;
+            }
+}

@@ -1,0 +1,62 @@
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.serviceText h3 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--black, #1f1f21);
+  font-size: 40px;
+  font-family: Lato;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.cardPacks {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.serviceCard {
+  width: 540px;
+  height: 479px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+.cardText h3 {
+  /* color: var(--black, #1f1f21); */
+  font-size: 40px;
+  font-family: Lato;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cardText p {
+  /* color: var(--light-black, #515151); */
+  font-size: 19px;
+  font-family: Lato;
+  line-height: 140%;
+}
+
+.serviceCard:hover{
+  border-radius: 8px;
+  background: var(--mayframe-colour, #1429A9);
+  color: var(--white, #FFF);
+}

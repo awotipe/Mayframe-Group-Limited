@@ -1,0 +1,70 @@
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.mainContainer{
+    margin: auto;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.firstText{
+    width: 100%;
+    text-align: left;
+}
+.firstText h3{
+    color: var(--black, #1F1F21);
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 600;
+    width:70%;
+}
+
+.firstText p{
+    color: #515151;
+    font-size: 19px;
+    font-family: Lato;
+    line-height: 133.5%;
+    margin-top: 2rem;
+    width: 90%;
+}
+.firstPack{
+    display: flex;
+    justify-content:space-between;   
+}
+.welcomeMain{
+    width: 80%;
+    padding-right: 4rem;
+}
+.welcomeMain p{
+    color: #515151;
+font-size: 19px;
+font-family: Lato;
+line-height: 140%;
+}
+.cardWrap{
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.cardWrap h4{
+    color: var(--black, #1F1F21);
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    padding-left: .5rem;
+}
+.picsPacks > img{
+    width: 10%;
+    height: auto;
+}
+.instructor{
+    margin-top: -24rem;
+    margin-left: -4rem;
+}

@@ -1,0 +1,406 @@
+.container {
+  width: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.innercontainer {
+  width: 85%;
+  margin: auto;
+  
+}
+.innercontainer h2 {
+  text-align: center;
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.innercontainer h5{
+    color: var(--black, #1F1F21);
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
+.maincontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionText{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.sectionText p{
+color: var(--light-black, #515151);
+font-family: Lato;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+
+}
+.aboutInfo{
+
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 90%; */
+    padding-top: 1.5rem;
+    text-align: left;
+
+}
+
+.aboutInfo p{
+    color: var(--light-black, #515151);
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 1rem;
+    }
+
+.socials{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.TwitterSocial{
+    color: #C19D59;
+    width: 24px;
+height: 24px;
+cursor:pointer;
+}
+
+.sectionFormA{
+    width: 60%;
+    /* padding-top: 2rem; */
+}
+.sectionFormA form input{
+    width: 90%;
+    height: 60px;
+    border-radius: 8px;
+    border: 1.5px solid #CACACA;
+    background: #F9F9F9;
+    color: #515151;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+input::placeholder{
+    color:#CACACA;
+}
+
+.Messages{
+    width: 90%;
+    height: 179px;
+    border-radius: 8px;
+    border: 1.5px solid #CACACA;
+    background: #F9F9F9;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    color: #757575;
+    font-size: 16px;
+    font-family: Lato;
+    padding-bottom: 6rem;
+}
+
+.sectionFormA button{
+    border-radius: 8px;
+    background: #1429A9;
+    height: 56.168px;
+    width: 30%;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Lato;
+    cursor: pointer;
+    border: none;
+    }
+@media (max-width:1024px){
+        .container {
+            width: 100%;
+            margin: auto;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+          }
+          .innercontainer {
+            width: 90%;
+            margin: auto;
+            
+          }
+          .innercontainer h2 {
+            font-size: 30px;
+          }
+          .innercontainer h5{
+          font-size: 30px;
+          }
+          .sectionText{
+              display: flex;
+              flex-direction: column;
+              width: 32%;
+          }
+          .sectionText p{
+          font-size: 16px;
+          }
+          
+          .aboutInfo p{
+              font-size: 16px;
+              }
+          
+          .socials{
+              width: 45%;
+              display: flex;
+              justify-content: space-between;
+              padding-top: 1rem;
+          }
+          .TwitterSocial{
+              color: #C19D59;
+              width: 24px;
+          height: 24px;
+          cursor:pointer;
+          }
+          
+          .sectionFormA{
+              width: 60%;
+              /* padding-top: 2rem; */
+          }
+          .sectionFormA form input{
+          width: 95%;
+          height: 55px;
+          border-radius: 8px;
+          border: 1.5px solid #CACACA;
+          background: #F9F9F9;
+          color: #515151;
+          font-family: Lato;
+          font-size: 12px;
+          font-style: normal;
+          margin-bottom: 1rem;
+          }
+          
+          .sectionFormA .MessagesA{
+        width: 95%;
+        height: 150px;
+          border-radius: 8px;
+          border: 1.5px solid #CACACA;
+          background: #F9F9F9;
+          gap: 1rem;
+          margin-bottom: 2rem;
+          color: #757575;
+          font-size: 12px;
+          font-family: Lato;
+          padding-bottom: 4rem;
+          }
+          
+          .sectionFormA button{
+              border-radius: 8px;
+              background: #1429A9;
+              height: 56.168px;
+              width: 30%;
+              color: #FFF;
+              font-size: 18px;
+              font-family: Lato;
+              cursor: pointer;
+              }
+    }
+
+    @media(max-width:768px){
+        .container {
+            width: 100%;
+            margin: auto;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+          }
+          .innercontainer {
+            width: 90%;
+            margin: auto;
+            
+          }
+          .innercontainer h2 {
+            font-size: 30px;
+          }
+          .innercontainer h5{
+          font-size: 20px;
+          }
+          .sectionText{
+              display: flex;
+              flex-direction: column;
+              width: 33%;
+          }
+          .sectionText p{
+          font-size: 12px;
+          
+          }
+          .aboutInfo{
+              display: flex;
+              padding-top: 1.5rem;
+              text-align: left;
+          }
+          
+          .aboutInfo p{
+              font-size: 12px;
+              }
+          
+          .socials{
+              width: 70%;
+              display: flex;
+              justify-content: space-between;
+              padding-top: 1rem;
+          }
+          .TwitterSocial{
+              color: #C19D59;
+              width: 24px;
+          height: 24px;
+          cursor:pointer;
+          }
+          
+          .sectionFormA{
+              width: 60%;
+        
+          }
+          .sectionFormA form input{
+          width: 95%;
+          height: 50px;
+          border-radius: 8px;
+          border: 1.5px solid #CACACA;
+          background: #F9F9F9;
+          color: #515151;
+          font-family: Lato;
+          font-size: 14px;
+          font-style: normal;
+          margin-bottom: 1rem;
+          }
+          
+          .sectionFormA .MessagesA{
+              width: 95%;
+              height: 140px;
+          border-radius: 8px;
+          border: 1.5px solid #CACACA;
+          background: #F9F9F9;
+          gap: 1rem;
+          margin-bottom: 2rem;
+          color: #757575;
+          font-size: 14px;
+          font-family: Lato;
+          padding-bottom: 6rem;
+          }
+          
+          .sectionFormA button{
+              border-radius: 8px;
+              background: #1429A9;
+              height: 45px;
+              width: 30%;
+              color: #FFF;
+              font-size: 16px;
+              font-family: Lato;
+              cursor: pointer;
+              }
+    }
+
+    @media (max-width: 425px){
+          .innercontainer {
+            width: 90%;
+            margin: auto;
+          }
+          .innercontainer h2 {
+            font-size: 25px;
+          }
+          .innercontainer h5{
+          font-size: 20px;
+          }
+          .maincontainer {
+            display: flex;
+           flex-direction: column;
+          }
+          .sectionText{
+              display: flex;
+              flex-direction: column;
+              width: 90%;
+              margin-bottom: 2rem;
+          }
+          .sectionText p{
+          color: var(--light-black, #515151);
+          font-family: Lato;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          
+          }
+          .aboutInfo{
+          
+              display: flex;
+              padding-top: 1.5rem;
+              text-align: left;
+          
+          }
+          
+          .aboutInfo p{
+              color: var(--light-black, #515151);
+              font-family: Lato;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              padding-left: 1rem;
+              }
+          
+          .socials{
+              width: 50%;
+              display: flex;
+              justify-content: space-between;
+              padding-top: 1rem;
+          }
+          .TwitterSocial{
+              color: #C19D59;
+              width: 24px;
+          height: 24px;
+          cursor:pointer;
+          }
+          
+          .sectionFormA{
+              width: 100%;
+              /* padding-top: 2rem; */
+          }
+          .sectionFormA form input{
+          width: 90%;
+          height: 50px;
+          border-radius: 8px;
+          border: 1.5px solid #CACACA;
+          background: #F9F9F9;
+          color: #515151;
+          font-family: Lato;
+          font-size: 12px;
+          font-style: normal;
+          margin-bottom: 2rem;
+          }
+          
+          .sectionFormA.Messages{
+              width: 90%;
+              height: 150px;
+          border-radius: 8px;
+          border: 1.5px solid #CACACA;
+          background: #F9F9F9;
+          gap: 1rem;
+          margin-bottom: 2rem;
+          color: #757575;
+          font-size: 12px;
+          font-family: Lato;
+          padding-bottom: 6rem;
+          }
+          
+          .sectionFormA button{
+              border-radius: 8px;
+              background: #1429A9;
+              height: 45px;
+              width: 30%;
+              color: #FFF;
+              font-size: 14px;
+              font-family: Lato;
+              cursor: pointer;
+              }
+    }

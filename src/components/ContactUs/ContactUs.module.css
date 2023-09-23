@@ -1,0 +1,9 @@
+.container{
+    margin-top: 5rem;
+    width: 90%;
+    margin: auto;
+    background-image: url(../../assets/About-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

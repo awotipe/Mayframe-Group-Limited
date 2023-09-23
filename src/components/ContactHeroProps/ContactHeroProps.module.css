@@ -1,0 +1,130 @@
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 1rem;   
+}
+.herotext {
+    width: 80%;
+    margin: auto;  
+}
+.heading{
+    text-align: left;
+    margin-top: 21rem;   
+}
+.heading h1 {
+color: var(--white, #FFF);
+font-family: Lato;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+.heading h4{
+    color: var(--white, #FFF);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+@media(max-width:1024px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;   
+    }
+    .herotext {
+        width: 80%;
+        margin: auto;
+    }
+    .heading{
+        text-align: left;
+        margin-top: 21rem;   
+    }
+    .heading h1 {
+    color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 2rem;
+    
+    }
+    .heading h4{
+    color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+}
+@media(max-width:768px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;   
+    }
+    
+    .herotext {
+        width: 80%;
+        margin: auto;  
+    }
+    .heading{
+        text-align: left;
+        margin-top: 21rem;   
+    }
+    .heading h1 {
+    color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    
+    }
+    .heading h4{
+        color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+}
+@media(max-width:425px) {
+
+    .container{
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;   
+    }
+    .herotext {
+        width: 80%;
+        margin: auto;  
+    }
+    .heading{
+        text-align: left;
+        margin-top: 21rem;   
+    }
+    .heading h1 {
+    color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    
+    }
+    .heading h4{
+        color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+}

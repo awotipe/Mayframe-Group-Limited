@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  margin: auto;
+  background: #f8f8f9;
+  margin-bottom: 5rem;
+}
+.innercontainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer {
+  margin-top: 12rem;
+  margin-left: 5rem;
+}
+.textContainer h3 {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+.textContainer h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.textContainer p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media(max-width:1024px){
+  .container {
+    width: 100%;
+    margin: auto;
+    background: #f8f8f9;
+    margin-bottom: 5rem;
+  }
+  .innercontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textContainer {
+    width: 50%;
+    margin-top: 12rem;
+    margin-left: 5rem;
+  }
+  .textContainer h3 {
+    font-size: 30px;
+  }
+  .textContainer h4 {
+    font-size: 20px;
+  }
+  .myMap{
+    width: 70%;
+  }
+  .textContainer p {
+    font-size: 16px;
+  }
+}
+@media(max-width:768px){
+  .container {
+    width: 100%;
+    margin: auto;
+    background: #f8f8f9;
+    margin-bottom: 5rem;
+  }
+  .innercontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textContainer {
+    margin-top: 12rem;
+    margin-left: 5rem;
+  }
+  .textContainer h3 {
+    font-size: 25px;
+  }
+  .textContainer h4 {
+    font-size: 14px;
+  }
+  
+  .textContainer p {
+    font-size: 12px;
+  }
+}
+@media(max-width:425px){
+  .container {
+    width: 100%;
+    margin: auto;
+    background: #f8f8f9;
+    margin-bottom: 5rem;
+  }
+  .innercontainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .textContainer {
+   margin-bottom: 3rem;
+    /* margin-top: 12rem;
+    margin-left: 5rem; */
+  }
+  .textContainer h3 {
+    color: var(--black, #1f1f21);
+    font-family: Lato;
+    font-size: 25px;
+
+  }
+  .textContainer h4 {
+    font-size: 16px;
+  }
+  .myMap{
+    width: 100%;
+  }
+  .textContainer p {
+    font-size: 14px;
+  }
+}

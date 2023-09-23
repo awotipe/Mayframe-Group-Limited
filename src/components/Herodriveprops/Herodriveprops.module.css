@@ -1,0 +1,89 @@
+.cardContainer{
+    width: 80%;
+    margin: auto;
+    height:192px;
+    background: #fff;
+    box-shadow: 10px;
+    border-bottom: 1.5px solid #E3E3E3;
+    margin-top: -3rem;
+   
+}
+.cardWrap{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.card h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1429A9;
+}
+
+.card p{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #515151;
+
+}
+.line {
+width: 126px;
+height: 0px;
+border: 1.5px solid #E3E3E3;
+transform: rotate(90deg);
+margin: auto;
+}
+
+@media (max-width:1024px){
+    .cardWrap{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+    .card h1{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .card p{
+    font-size: 16px;
+    line-height: 24px;
+    }
+   
+}
+@media (max-width: 768px){
+    .cardContainer{
+        width: 90%;
+        height:160px;
+    }
+    .cardWrap{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 4rem;
+        padding-top: 3rem;
+    }
+    .card h1{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .card p{
+    font-size: 14px;
+    width: 120%;
+    }
+    .line {
+    width: 120px;
+    }
+}
+@media (max-width: 425px) {
+    .cardContainer{
+        display: none;
+    }      
+}

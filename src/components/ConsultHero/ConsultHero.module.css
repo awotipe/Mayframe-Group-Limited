@@ -1,0 +1,131 @@
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.innercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContainer{
+width: 50%;
+
+}
+.mainContainer h5{ 
+    color: var(--secondary-yellow, #C19D59);
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.mainContainer h3{
+    color: var(--black, #1F1F21);
+font-family: Lato;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+padding-top:1rem;
+padding-bottom:1.5rem;
+}
+.mainContainer p{
+color: var(--light-black, #515151);
+font-family: Lato;
+font-size: 1.3125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+}
+
+
+@media (max-width: 1024px) {
+    .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.innercontainer{
+    width: 90%;
+    gap: 1rem;
+    margin: auto;
+}
+.mainContainer{
+width: 92%;
+/* margin: auto; */
+}
+.mainContainer h5{ 
+    font-size: 1.2rem;
+}
+.PicsContainer>img{
+    width: 95%;
+}
+.mainContainer h3{
+font-size: 2.0rem;
+}
+.mainContainer p{
+font-size: 1.1rem;
+}
+
+}
+@media (max-width: 768px) {
+    .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.innercontainer{
+    width: 100%;
+    gap: 1rem;
+     margin: auto;
+}
+.mainContainer{
+width: 85%;
+margin: auto;
+}
+.mainContainer h5{ 
+    font-size: 1.0rem;
+}
+.PicsContainer>img{
+    width: 96%;
+}
+.mainContainer h3{
+font-size: 1.6rem;
+}
+.mainContainer p{
+font-size: 0.8rem;
+}
+}
+
+@media (max-width: 425px) {
+    .container{
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .innercontainer{
+        display: grid;
+        align-items: center;
+    }
+    .mainContainer{
+    width: 100%;
+    }
+    .mainContainer h5{ 
+        font-size: 1.0rem;
+    }
+    .PicsContainer>img{
+        width: 100%;
+        margin: auto;
+    }
+    .mainContainer h3{
+    font-size: 1.5rem;
+    }
+    .mainContainer p{
+    font-size: 0.9rem;
+    justify-content: center;
+    }
+}
