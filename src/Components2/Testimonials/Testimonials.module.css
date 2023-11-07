@@ -1,0 +1,83 @@
+.container{
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.innerContainer h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Lato';
+    font-weight: 500;
+    padding-bottom: 1rem;
+
+}
+
+.innerContainer h6{
+    text-align: center;
+    color: rgba(193, 157, 89, 1);
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 500;
+    padding-bottom: 1rem;
+
+}
+
+.cardContainer{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.card{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(193, 157, 89, 1);
+    padding: 2rem 0;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+   
+}
+
+.card:hover{
+    color: white;
+    background: rgba(20, 41, 169, 1);
+}
+
+.imageDiv{
+   width: 20%;
+   margin: auto;
+   padding-bottom: 1rem;
+}
+
+.cardText{
+    width: 85%;
+    margin: auto;
+}
+
+.cardText p{
+    font-size: 1rem;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.cardText h5{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.cardText h4{
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 500;
+    padding-bottom: 1rem;
+}

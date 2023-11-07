@@ -1,0 +1,347 @@
+.Conatainer {
+  width: 100%;
+  margin: auto;
+  margin-top: 8rem;
+  background-color: #F7F8FF;
+  position: relative;
+}
+.innerContainer {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.columnOne {
+  width: 35%;
+}
+.mfLogo{
+    margin-bottom: 1rem;
+}
+.footerText p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+margin-bottom: 2rem;
+}
+
+.Footerinfo {
+  display: flex;
+}
+.columnTwo{
+    width: 15%;
+}
+.columnTwo h4 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.navlink li {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.columnThree {
+  width: 13%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+.columnThree h4 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.Email {
+  width: 30%;
+}
+.Email h4 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.Email p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.scrollUp {
+  position: relative;
+}
+.iconscroll {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+  fill: var(--secondary-yellow, #c19d59);
+  width: 48px;
+  height: 48px;
+}
+@media(max-width:1024px){
+  .Conatainer {
+    width: 100%;
+  }
+  .innerContainer {
+    width: 90%;
+    margin: auto;
+  }
+  .columnOne {
+    width: 40%;
+  }
+  .mfLogo{
+      margin-bottom: 1rem;
+  }
+  .footerText p {
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  .columnTwo{
+      width: 20%;
+      gap: 2rem;
+  }
+  .columnTwo h4 {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+  
+  .navlink li {
+    font-size: 16px;
+    margin-bottom: .5rem;
+  }
+  .columnThree {
+    width: 25%;
+  }
+  
+  .socials {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .columnThree h4 {
+    color: var(--mayframe-colour, #1429a9);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  
+  .Email {
+    width: 35%;
+  }
+  .Email h4 {
+    color: var(--mayframe-colour, #1429a9);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  .Email p {
+    color: var(--black, #1f1f21);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .scrollUp {
+    position: relative;
+  }
+  .iconscroll {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+    fill: var(--secondary-yellow, #c19d59);
+    width: 48px;
+    height: 48px;
+  }
+}
+@media(max-width:768px){
+  .Conatainer {
+    width: 100%;
+  }
+  .innerContainer {
+    width: 90%;
+    margin: auto;
+  }
+  .columnOne {
+    width: 45%;
+  }
+  .mfLogo{
+      margin-bottom: 2rem;
+  }
+  .mfLogo img{
+    width:70%;
+  }
+  .footerText p {
+    font-size: 12px;
+    margin-bottom: 2rem;
+  }
+  .columnTwo{
+      width: 25%;
+      gap: 2rem;
+  }
+  .columnTwo h4 {
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  .navlink li {
+    font-size: 14px;
+    margin-bottom: .5rem;
+  }
+  .columnThree {
+    width: 25%;
+  }
+  
+  .socials {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .columnThree h4 {
+    color: var(--mayframe-colour, #1429a9);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  
+  .Email {
+    width: 35%;
+  }
+  .Email h4 {
+    color: var(--mayframe-colour, #1429a9);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  .Email p {
+    color: var(--black, #1f1f21);
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .scrollUp {
+    position: relative;
+  }
+  .iconscroll {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+    fill: var(--secondary-yellow, #c19d59);
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media(max-width:425px){
+  .Conatainer {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: #F7F8FF;
+    position: relative;
+  }
+  .innerContainer {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .columnOne {
+    width: 100%;
+  }
+  .mfLogo{
+      margin-bottom: 1rem;
+  }
+  .footerText p {
+    font-size: 14px;
+  margin-bottom: 2rem;
+  }
+  
+  .Footerinfo {
+    display: flex;
+  }
+  .columnTwo{
+      width: 100%;
+  }
+  .columnTwo h4 {
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  .navlink li {
+    color: var(--black, #1f1f21);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: .5rem;
+  }
+  .columnThree {
+    width: 50%;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: space-between;
+  }
+  .columnThree h4 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .Email {
+    width: 100%;
+  }
+  .Email h4 {
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .Email p {
+    font-size: 14px;
+  }
+  .scrollUp {
+    position: relative;
+  }
+  .iconscroll {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    fill: var(--secondary-yellow, #c19d59);
+    width: 30px;
+    height: 30px;
+  }
+}

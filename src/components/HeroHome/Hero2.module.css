@@ -1,0 +1,112 @@
+.container{
+   width: 100%;
+   background-image: url(../../assets/heroImage.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+.text{
+    width: 90%;
+    margin: auto;
+    padding: 8rem 0;
+}
+
+.text h1{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.text p{
+    color: var(--white, #FFF);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 40%;
+    padding: 2rem 0;
+}
+
+.text button{
+    border-radius: 8px;
+    background: var(--mayframe-colour, #1429A9);
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1024px){
+    .text h1{
+        font-size: 54px;
+        width: 60%;
+    }
+    
+    .text p{
+        font-size: 20px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .text h1{
+        font-size:54px;
+        width: 70%;
+        margin-top: 5rem;
+    }
+
+    .text p{
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .text{
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        background-image: url(../../assets/mobileBack.png);
+     }
+
+    .text h1{
+        font-size: 30px;
+        width: 90%;
+        margin-top: 5rem;
+    }
+
+    .text p{
+        font-size: 14px;
+        width: 80%;
+        font-weight: normal;
+    }
+
+    .text{
+        width: 90%;
+        margin: auto;
+        padding: 4rem 0;
+    }
+
+    .text button{
+        font-size: 14px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+}

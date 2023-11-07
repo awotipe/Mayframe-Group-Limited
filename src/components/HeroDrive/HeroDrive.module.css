@@ -7,3 +7,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 425px){
+    .container{
+        width: 100%;
+        margin: auto;
+        height: 80vh;
+    }
+}

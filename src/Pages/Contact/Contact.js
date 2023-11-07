@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Header/Header'
 import ContactHero from '../../components/ContactHero/ContactHero'
 import ContactForm from '../../components/ContactForm/ContactForm'
 import ContactMap from '../../components/ContactMap/ContactMap'
-import Footer from '../../components/Footer/Footer'
+// import Footer from '../../components/Footer/Footer'
 
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
         <ContactHero/>
         <ContactForm/>  
         <ContactMap />
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }

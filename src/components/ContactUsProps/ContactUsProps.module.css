@@ -1,277 +1,248 @@
-.innerContainer{
-width: 95%;
-margin: auto;
-display: flex;
-justify-content: space-between;
+.innerContainer {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.textssContainer{
-    width: 45%;
-    margin-top: 20rem;
+.textssContainer {
+  width: 45%;
 }
 
+.formContainer {
+  width: 50%;
+  border-radius: 8px;
+  background: #fff;
+  height: 600px;
+  margin: 3rem;
+  text-align: center;
+}
+.textssContainer h1 {
+  color: var(--white, #fff);
+  font-size: 40px;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 140%;
+}
 
-.formContainer{
-    width: 50%;
+form input {
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid rgba(117, 117, 117, 1);
+  height: 45.807px;
+  background: rgba(225, 225, 225, 1);
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  color: #757575;
+  font-size: 16px;
+  font-family: Lato;
+  padding-left: 1rem;
+}
+
+.Messages {
+  width: 90%;
+  border-radius: 8px;
+  height: 120px;
+  background: rgba(225, 225, 225, 1);
+  align-items: center;
+  gap: 1rem;
+  color: #757575;
+  font-size: 16px;
+  font-family: Lato;
+  padding-bottom: 5rem;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  padding-left: 0.1rem;
+}
+
+form h3 {
+  color: #1429a9;
+  font-size: 37.445px;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.formContainer button {
+  border-radius: 8px;
+  background: #1429a9;
+  height: 56.168px;
+  width: 90%;
+  color: #fff;
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 133.5%;
+  cursor: pointer;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .innerContainer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textContainer {
+    width: 40%;
+  }
+
+  .formContainer {
+    width: 55%;
     border-radius: 8px;
-    background: #FFF;
+    background: #fff;
     height: 600px;
     margin-top: 3rem;
     text-align: center;
-
+  }
+  .textssContainer h1 {
+    color: var(--white, #fff);
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 140%;
+  }
 }
-.textssContainer h1{
-color: var(--white, #FFF);
-font-size: 40px;
-font-family: Lato;
-font-weight: 700;
-line-height: 140%; 
-}
+@media (max-width: 768px) {
+  .innerContainer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
 
-form input{
-width: 90%;
-border-radius: 8px;
-border: 1px solid rgba(117, 117, 117, 1);
-height: 45.807px;
-background: rgba(225, 225, 225, 1);
-align-items: center;
-gap: .5rem;
-margin-bottom: 2rem;
-color: #757575;
-font-size: 16px;
-font-family: Lato;
-padding-left: 1rem;
-}
-
-.Messages{
+  .textssContainer {
+    width: 50%;
+  }
+  .formContainer {
+    width: 60%;
+    border-radius: 8px;
+    background: #fff;
+    height: 515px;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .textssContainer h1 {
+    color: var(--white, #fff);
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  form input {
     width: 90%;
     border-radius: 8px;
-    height: 120px;
+    border: 1px solid rgba(117, 117, 117, 1);
+    height: 35px;
+    background: rgba(225, 225, 225, 1);
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: #757575;
+    font-size: 14px;
+    font-family: Lato;
+    padding-left: 1rem;
+  }
+
+  .Messages {
+    width: 90%;
+    border-radius: 8px;
+    height: 100px;
     background: rgba(225, 225, 225, 1);
     align-items: center;
     gap: 1rem;
-    margin-bottom: rem;
+    margin-bottom: 1rem;
     color: #757575;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Lato;
-    padding-bottom: 2rem;
-    }
+    padding-bottom: 3rem;
+  }
 
-::-webkit-input-placeholder{
+  ::-webkit-input-placeholder {
     color: black;
-    padding-left: .1rem;
-}
+    padding-left: 0.1rem;
+  }
 
-form h3{
-color: #1429A9;
-font-size: 37.445px;
-font-family: Lato;
-font-weight: 700;
-line-height: 140%;
-margin-top: 1.5rem;
-margin-bottom: 1rem;
-}
+  form h3 {
+    color: #1429a9;
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
 
-.formContainer button{
-border-radius: 8px;
-background: #1429A9;
-height: 56.168px;
-width: 90%;
-color: #FFF;
-font-size: 24px;
-font-family: Lato;
-font-weight: 700;
-line-height: 133.5%;
-cursor: pointer;
+  .formContainer button {
+    border-radius: 8px;
+    background: #1429a9;
+    height: 40px;
+    width: 70%;
+    color: #fff;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 133.5%;
+    cursor: pointer;
+  }
 }
+@media (max-width: 480px) {
+  .innerContainer {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
 
-@media(max-width:1024px){
-    .innerContainer{
-        width: 95%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        }
-        
-        .textContainer{
-            width: 40%;
-        }
-        
-        
-        .formContainer{
-            width: 55%;
-            border-radius: 8px;
-            background: #FFF;
-            height: 600px;
-            margin-top: 3rem;
-            text-align: center;
-        
-        }
-        .textssContainer h1{
-        color: var(--white, #FFF);
-        font-size: 25px;
-        font-family: Lato;
-        font-weight: 700;
-        line-height: 140%; 
-        }
-}
-@media(max-width:768px){
-    .innerContainer{
-        width: 95%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        }
-        
-        .textssContainer{
-            width: 50%;
-        }
-        .formContainer{
-            width: 60%;
-            border-radius: 8px;
-            background: #FFF;
-            height: 515px;
-            margin-top: 3rem;
-            text-align: center;
-        
-        }
-        .textssContainer h1{
-        color: var(--white, #FFF);
-        font-size: 20px;
-        font-family: Lato;
-        font-weight: 700;
-        line-height: 140%; 
-        }
-       form input{
-            width: 90%;
-            border-radius: 8px;
-            border: 1px solid rgba(117, 117, 117, 1);
-            height: 35px;
-            background: rgba(225, 225, 225, 1);
-            align-items: center;
-            gap: .5rem;
-            margin-bottom: 1rem;
-            color: #757575;
-            font-size: 14px;
-            font-family: Lato;
-            padding-left: 1rem;
-            }
-            
-        .Messages{
-                width: 90%;
-                border-radius: 8px;
-                height: 100px;
-                background: rgba(225, 225, 225, 1);
-                align-items: center;
-                gap: 1rem;
-                margin-bottom: 1rem;
-                color: #757575;
-                font-size: 14px;
-                font-family: Lato;
-                padding-bottom: 3rem;
-                }
-            
-            ::-webkit-input-placeholder{
-                color: black;
-                padding-left: .1rem;
-            }
-            
-            form h3{
-            color: #1429A9;
-            font-size: 25px;
-            font-family: Lato;
-            font-weight: 700;
-            line-height: 140%;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-            }
-            
-            .formContainer button{
-            border-radius: 8px;
-            background: #1429A9;
-            height: 40px;
-            width: 70%;
-            color: #FFF;
-            font-size: 14px;
-            font-family: Lato;
-            font-weight: 700;
-            line-height: 133.5%;
-            cursor: pointer;
-            }
-}
-@media(max-width:425px){
-    .innerContainer{
-        width: 95%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        }
-        .textssContainer{
-           display: none;
-        }
-        .formContainer{
-            width: 100%;
-            border-radius: 8px;
-            background: #FFF;
-            height: 500px;
-            margin-top: 3rem;
-            text-align: center;
-        }
+  .textssContainer {
+    padding-top: 2rem;
+    width: 100%;
+  }
 
-        form input{
-            width: 90%;
-            border-radius: 8px;
-            border: 1px solid rgba(117, 117, 117, 1);
-            height: 35px;
-            background: rgba(225, 225, 225, 1);
-            align-items: center;
-            gap: .5rem;
-            margin-bottom: 2rem;
-            color: #757575;
-            font-size: 12px;
-            font-family: Lato;
-            padding-left: 1rem;
-            }
-            
-        .Messages{
-                width: 90%;
-                border-radius: 8px;
-                height: 100px;
-                background: rgba(225, 225, 225, 1);
-                align-items: center;
-                gap: 1rem;
-                margin-bottom: rem;
-                color: #757575;
-                font-size: 12px;
-                font-family: Lato;
-                padding-bottom: 3rem;
-                }
-            
-            ::-webkit-input-placeholder{
-                color: black;
-                padding-left: .1rem;
-            }
-            
-            form h3{
-            color: #1429A9;
-            font-size: 25px;
-            font-family: Lato;
-            font-weight: 700;
-            line-height: 140%;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-            }
-            
-            .formContainer button{
-            border-radius: 8px;
-            background: #1429A9;
-            height: 45px;
-            width: 80%;
-            color: #FFF;
-            font-size: 16px;
-            font-family: Lato;
-            font-weight: 700;
-            line-height: 133.5%;
-            cursor: pointer;
-            }
+  .formContainer {
+    width: 100%;
+    border-radius: 8px;
+    background: #fff;
+    height: 400px;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  form input {
+    width: 90%;
+    font-size: 12px;
+    font-family: Lato;
+    padding-left: 1rem;
+  }
+
+  .Messages {
+    width: 90%;
+    gap: 1rem;
+    font-size: 12px;
+    font-family: Lato;
+    padding-bottom: 3rem;
+  }
+
+  ::-webkit-input-placeholder {
+    color: black;
+    padding-left: 0.1rem;
+  }
+
+  form h3 {
+    font-size: 25px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .formContainer button {
+    width: 90%;
+    font-size: 16px;
+  }
 }

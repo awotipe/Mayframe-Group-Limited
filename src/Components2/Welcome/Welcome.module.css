@@ -1,0 +1,167 @@
+.container{
+    width: 100%;
+    margin: 6rem 0;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.welcome h2{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+    width: 60%;
+}
+
+.welcome p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #515151;
+    width: 80%;
+}
+
+
+.safeContainer{
+    margin-top: 2rem;
+}
+
+.safeWrap{
+    display: flex;
+}
+
+.safety{
+    width: 40%;
+}
+
+.safety h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #1F1F21;
+}
+
+.safety p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #515151;
+}
+
+
+.safetyImage img{
+    width: 10%;
+}
+
+.professional{
+    width: 40%;
+}
+
+.professional h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #1F1F21;
+}
+
+.professional p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #515151;
+}
+
+.professionalImage img{
+    width: 10%;
+}
+
+.customerWrap{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.customerService{
+    width: 40%;
+}
+
+.customerService h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #1F1F21;
+}
+
+.customerService p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0rem;
+    color: #515151;
+}
+
+.customerImage img{
+    width: 10%;
+}
+
+.continous{
+    width: 40%;
+}
+
+.continous h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #1F1F21;
+  
+}
+
+.continous p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #515151;
+}
+
+.continousImage img{
+    width: 10%;
+}
+
+.car img{
+    width: 100%;
+}
+
+.car2 img{
+    margin-top: -24rem;
+    margin-left: -5rem;
+    width: 100%;
+}
+
+
+

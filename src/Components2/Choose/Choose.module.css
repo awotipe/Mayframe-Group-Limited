@@ -1,0 +1,170 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.innerContainer{
+    padding-top: 5rem;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.val h1{
+    width: 287px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+    margin: auto;
+    margin-top:5rem;
+}
+
+.value h1{
+    width: 205px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21
+}
+
+.value p{
+    width: 382px;
+    height: 125px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.teamwork h1{
+    width: 223px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.teamwork p{
+    width: 382px;
+    height: 166px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;;
+}
+
+.liberty h1{
+    width: 100px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.liberty p{
+    width: 382px;
+    height: 166px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.communication h1{
+    width: 222px;
+    height: 29px;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.communication p{
+    width: 382px;
+    height: 128px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.quality h1{
+    width: 123px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.quality p{
+    width: 382px;
+    height: 145px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.spirit h1{
+    width: 200px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+    }
+
+.spirit p{
+    width: 382px;
+    height: 146px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}

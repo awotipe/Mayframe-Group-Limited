@@ -1,0 +1,189 @@
+.container{
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;   
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.service2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topService h4{
+    color: var(--secondary-yellow, #C19D59);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    width: 13.2%;
+    line-height: normal;
+}
+
+/* .topService h4::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #C19D59;
+    -webkit-text-stroke: 0.1vw #C19D59;
+    border-right: 2px solid #1429A9;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+} */
+
+/* @keyframes animate {
+    0%, 10%{
+        width: 0;
+    }
+
+    70%, 40%{
+        width: 100%;
+    }
+} */
+
+.topService h2{
+    color: var(--black, #1F1F21);
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 50%;
+    padding: 2rem 0;
+}
+
+.serviceCard1{
+    position: relative;
+}
+
+.myImage{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.serviceCard2{
+    position: relative;
+}
+
+.serviceCard3{
+    position: relative;
+}
+
+.myText{
+    background: #1429A9;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    height: 0;
+}
+
+.serviceCard1:hover .myText{
+    height: 100%;
+}
+.serviceCard2:hover .myText{
+    height: 100%;
+}
+.serviceCard3:hover .myText{
+    height: 100%;
+}
+
+.myText h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 2rem 0 0 2rem;
+}
+
+.myText h5{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 0 0 2rem;
+}
+
+.myText p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.5%;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .topService h2{
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .topService h4{
+        font-size: 20px;
+        width: 14.5%;
+    }
+
+    .service{
+        gap: 1rem;
+    }
+    
+    .service2{
+        gap: 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px){
+    .topService h2{
+        font-size: 24px;
+        width: 90%;
+    }
+
+    .topService h4{
+        font-size: 18px;
+        width: 28.5%;
+    }
+
+    .service{
+        display: block;
+        
+    }
+    
+    .service2{
+        display: block;
+    }
+
+    .serviceCard1 img{
+        padding-bottom: 2rem;
+    }
+    
+    .serviceCard3 img{
+        padding-bottom: 2rem;
+    }
+}

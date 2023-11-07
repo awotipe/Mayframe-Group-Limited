@@ -1,0 +1,89 @@
+.container{
+    margin-top: 12rem;
+    width: 90%;
+    margin: auto;
+    background-image: url(../../assets/drivin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.innerContainer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textContainer{
+    width: 45%;
+    margin-top: 17rem;
+}
+
+.formContainer{
+    width: 50%;
+    height: 600.15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 3rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.form{
+    margin-top: 2.5rem;
+}
+
+.formContainer h3{
+    font-family: Lato;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: rgba(20, 41, 169, 1);
+}
+
+.textContainer h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.formContainer input{
+    width: 90%;
+    height: 48px;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    color: rgba(117, 117, 117, 1.);
+    padding-left: .7rem;
+    border: 2px solid rgba(117, 117, 117, 1.);
+    background: rgba(202, 202, 202, 1);
+}
+
+::-webkit-input-placeholder{
+    color: rgba(117, 117, 117, 1.) !important;
+    padding-left: .1rem;
+}
+
+.textArea input{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border: 2px solid rgba(117, 117, 117, 1.);
+    background: rgba(202, 202, 202, 1);
+    padding-bottom: 3.2rem;
+}
+
+.formContainer button{
+    width: 90%;
+    height: 46px;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+    background: rgba(20, 41, 169, 1);
+    border-radius: 8px;
+    cursor: pointer;
+}

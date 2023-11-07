@@ -15,6 +15,7 @@ const Services = () => {
         </div>
 
         <div className={classes.cardPacks}>
+          <div className={classes.serviceWrap}>
           <div className={classes.serviceCard}>
             <div className={classes.vector}>
               <img src={Vector} alt="vector" />
@@ -48,6 +49,8 @@ const Services = () => {
             </p>
             </div>
           </div>
+          </div>
+          <div className={classes.serviceWrap}>
           <div className={classes.serviceCard}>
             <div className={classes.vector}>
               <img src={Vectorb} alt="vector" />
@@ -79,6 +82,10 @@ const Services = () => {
             </p>
             </div>
           </div>
+          </div>
+          </div>
+          <div className={classes.cardPacksWrap}>
+          <div className={classes.cardPacks}>
           <div className={classes.serviceCard}>
             <div className={classes.vector}>
               <img src={Vectord} alt="vector" />
@@ -93,8 +100,9 @@ const Services = () => {
               specific needs of the training vehicles.
             </p>
             </div>
+            </div>
           </div>
-        </div>
+          </div>
       </div>
     </div>
   );

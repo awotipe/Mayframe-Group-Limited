@@ -4,13 +4,15 @@
     padding-top: 1rem;   
 }
 .herotext {
-    width: 80%;
-    margin: auto;  
+    width: 90%;
+    margin: auto; 
+    align-items: center; 
 }
 .heading{
     text-align: left;
-    margin-top: 21rem;   
+    margin-top: 15rem;   
 }
+
 .heading h1 {
 color: var(--white, #FFF);
 font-family: Lato;
@@ -39,10 +41,10 @@ line-height: normal;
         width: 80%;
         margin: auto;
     }
-    .heading{
+    /* .heading{
         text-align: left;
         margin-top: 21rem;   
-    }
+    } */
     .heading h1 {
     color: var(--white, #FFF);
     font-family: Lato;
@@ -50,7 +52,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     
     }
     .heading h4{
@@ -74,28 +76,29 @@ line-height: normal;
         margin: auto;  
     }
     .heading{
-        text-align: left;
-        margin-top: 21rem;   
+        margin-top: 12rem;   
     }
+
     .heading h1 {
     color: var(--white, #FFF);
     font-family: Lato;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 300;
     line-height: normal;
+    padding-bottom: .5rem;
     
     }
     .heading h4{
         color: var(--white, #FFF);
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 }
-@media(max-width:425px) {
+@media(max-width:480px) {
 
     .container{
         width: 100%;
@@ -107,24 +110,13 @@ line-height: normal;
         margin: auto;  
     }
     .heading{
-        text-align: left;
-        margin-top: 21rem;   
+        margin-top: 12rem;   
     }
+
     .heading h1 {
-    color: var(--white, #FFF);
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    
+    font-size: 40px;    
     }
     .heading h4{
-        color: var(--white, #FFF);
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+        font-size: 16px;
     }
 }

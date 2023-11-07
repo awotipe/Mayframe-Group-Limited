@@ -1,0 +1,65 @@
+.outerContainer{
+    width: 100%;
+    height: 666px;
+    background-image: url(../../assets//compete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.sta h1{
+    width: 515px;
+    height: 210px;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+
+.line1{
+   width: 350px;
+   height: 0px;
+   Top: 2889px;
+   Left: 772px;
+   border: 0.8px solid #E3E3E3;
+   transform: rotate(-90deg);
+   margin-top: 20rem;
+   }
+
+ .innerContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .velt h1{
+    width: 215px;
+    height: 115px;
+    font-family: Lato;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 115px;
+    color: #FFFFFF;
+ }
+
+ .velt p{
+    width: 380px;
+    height: 86px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #F9F9F9;
+    margin-top: -3rem;
+ }
+
+ .line2{
+    width:470px;
+    height: 0px;
+    border: 1px solid #E3E3E3;
+    transform: rotate(180deg);
+    margin-top: 4rem;
+ }

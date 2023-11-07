@@ -1,0 +1,67 @@
+
+.container{
+    width: 100%;
+    margin: auto;
+    height: 900px;
+    padding-top: 5rem;
+    background-image: url(../../assets/Pro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;   
+}
+
+.flex h2 {
+    padding-top: 11rem;
+    width: 690px;
+    height: 231px;
+    font-family: Lato;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 76.8px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.imagination{
+    /* width: 80%; */
+    margin-top: 9rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enq button{
+    width: Hug (230px);
+    height: Hug (77px);
+    padding: 24px 40px 24px 40px;
+    border-radius: 8px;
+    gap: 8px;
+    background: rgba(20, 41, 169, 1);
+    border: none;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.leash p{
+    width: 482px;
+    height: 102px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.04px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    margin-left: 9rem;
+}

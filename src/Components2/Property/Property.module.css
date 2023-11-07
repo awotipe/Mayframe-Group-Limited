@@ -1,0 +1,220 @@
+.container{
+    width: 90%;
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.construct{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.engine{
+    margin-top: 6rem;
+}
+
+.engine h1{
+    width: 408px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+ }
+
+ .engine p{
+    width: 588px;
+    height: 196px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+ }
+
+ .mode{
+    margin-top: 6rem;
+}
+
+ .mode h1{
+    width: 588px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+ }
+
+ .mode p{
+    width: 588px;
+    height: 151px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+ }
+
+ .wom{
+    margin-top: 6rem;
+}
+
+ .wom h1{
+    width: 534px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+ }
+
+ .wom p{
+    width: 580px;
+    height: 232px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+ }
+
+.rod h1{
+   width: 510px;
+   height: 58px;
+   font-family: Lato;
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 58px;
+   letter-spacing: 0em;
+   color: #1F1F21;
+}
+
+.rod p{
+   width: 588px;
+   height: 146px;
+   font-family: Lato;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   color: #515151;
+}
+
+.rod{
+   margin-top: 6rem;
+}
+
+.rents h1{
+   width: 519px;
+   height: 48px;
+   font-family: Lato;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0em;
+   color: #1F1F21;
+}
+
+.rents p{
+   width: 588px;
+   height: 257px;
+   font-family: Lato;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   color: #515151;
+}
+
+.rents{
+   margin-top: 6rem;
+}
+
+.real h1{
+   width: 588px;
+   height: 58px;
+   font-family: Lato;
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 58px;
+   letter-spacing: 0em;
+   color: #1F1F21;
+}
+
+.real p{
+   width: 588px;
+   height: 199px;
+   font-family: Lato;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   color: #515151;
+}
+
+.real{
+   margin-top: 6rem;
+}
+
+.development{
+   display: flex;
+   justify-content: space-between;
+}
+
+.ltd{
+   margin-top: 6rem;
+}
+
+.ltd h3{
+   width: 100px;
+   height: 29px;
+   font-family: Lato;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 29px;
+   letter-spacing: 0em;
+   color:  #C19D59;
+}
+
+.ltd h1{
+   width: 487px;
+   height: 96px;
+   font-family: Lato;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0em;
+   color: #1F1F21;
+}
+
+.ltd p{
+   width: 587px;
+   height: 231px;
+   font-family: Lato;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   color: #515151;
+}
+
+.pict{
+   display: flex;
+   gap: 20px;
+}

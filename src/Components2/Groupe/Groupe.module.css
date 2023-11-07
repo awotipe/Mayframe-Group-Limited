@@ -1,0 +1,81 @@
+.container{
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.group h1{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #1F1F21;
+    margin: auto;
+}
+
+.group p{
+    padding: 1rem;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #515151;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.08);
+}
+
+.vision h1{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #1F1F21;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.vision p{
+    padding: 1rem;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #515151;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.08);
+}
+
+.mission h1{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin: auto;
+    color: #1F1F21;
+    margin-top: 4rem;
+}
+
+.mission p{
+    padding: 1rem;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #515151;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.08);
+}

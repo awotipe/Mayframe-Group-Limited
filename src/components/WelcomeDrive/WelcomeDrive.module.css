@@ -1,0 +1,166 @@
+.container{
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.mainContainer{
+    margin: auto;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.firstText{
+    width: 100%;
+    text-align: left;
+}
+
+.firstText h3{
+    color: var(--black, #1F1F21);
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 600;
+    width:70%;
+}
+
+.firstText p{
+    color: #515151;
+    font-size: 19px;
+    font-family: Lato;
+    line-height: 133.5%;
+    margin-top: 2rem;
+    width: 90%;
+}
+.firstPack{
+    display: flex;
+    justify-content:space-between;   
+}
+
+.welcomeMain{
+    width: 80%;
+    padding-right: 4rem;
+}
+.welcomeMain p{
+    color: #515151;
+    font-size: 19px;
+    font-family: Lato;
+    line-height: 140%;
+}
+
+.cardWrap{
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.cardWrap h4{
+    color: var(--black, #1F1F21);
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    padding-left: .5rem;
+}
+
+
+.instructor{
+    margin-top: -24rem;
+    margin-left: -4rem;
+}
+
+@media screen and (max-width: 1024px){
+    .firstText h3{
+        font-size: 40px;
+        width:80%;
+    }
+    
+    .firstText p{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .welcomeMain p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cardWrap{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .firstText p{
+        font-size: 14px;
+    }
+
+    .welcomeMain p{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+    .mainContainer{
+        margin: auto;
+        width:90%;
+        display: block;
+    }
+
+    .picsPacks{
+        margin: auto;
+        width:90%;
+        margin-top: 3rem;
+    }
+
+    .imageCar{
+        margin-left: 4rem;
+    }
+
+    .instructor{
+        margin-top: -24rem;
+        margin-left: 0rem;
+    }
+
+    .imageCar img{
+        width: 100%;
+    }
+
+    .instructor img{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .firstText h3{
+        font-size: 30px;
+        width:100%;
+    }
+    
+    .firstText p{
+        font-size: 16px;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .welcomeMain{
+        width: 100%;
+        margin-top: 2rem;
+        padding-right: 0rem;
+    }
+
+    .firstPack{
+        display: block;  
+        width: 90%;
+    }
+
+    .cardWrap h4{
+        font-size: 20px;
+    }
+
+    .welcomeMain p{
+        font-size: 16px;
+    }
+}

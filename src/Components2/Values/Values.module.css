@@ -1,0 +1,170 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.innerContainer{
+    padding-top: 5rem;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.val h1{
+    width: 287px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+    margin: auto;
+    margin-top:3rem;
+}
+
+.value h1{
+    width: 90px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2A2A2A;
+}
+
+.value p{
+    width: 382px;
+    height: 174px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.teamwork h1{
+    width: 111px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.teamwork p{
+    width: 382px;
+    height: 174px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;;
+}
+
+.liberty h1{
+    width: 382px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.liberty p{
+    width: 384px;
+    height: 139px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.communication h1{
+    width: 168px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.communication p{
+    width: 382px;
+    height: 174px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.quality h1{
+    width: 161px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+}
+
+.quality p{
+    width: 382px;
+    height: 174px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.spirit h1{
+    width: 198px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F21;
+    }
+
+.spirit p{
+    width: 382px;
+    height: 174px;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
