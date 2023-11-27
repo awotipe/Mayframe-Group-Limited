@@ -4,6 +4,9 @@ import classes from "./ConsBenefit.module.css";
 const ConsBenefit = () => {
   return (
     <div className={classes.Container}>
+    <div className={classes.containerTop}>
+        <h3>Benefits</h3>
+        </div>
       <div className={classes.innerContainer}>
         <div className={classes.mainContainer}>
           <div className={classes.NumContainer}>

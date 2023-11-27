@@ -33,7 +33,7 @@ const OurServices = () => {
                 and achieve sustainable growth.
               </p>
               <Link to="/consultancy">
-                <h5>Learn more </h5>
+                <h5>Learn more → </h5>
               </Link>
             </div>
           </div>
@@ -56,7 +56,7 @@ const OurServices = () => {
                 align with their goals and risk tolerance.
               </p>
               <Link to="/investment">
-                <h5>Learn more </h5>
+                <h5>Learn more →</h5>
               </Link>
             </div>
           </div>
@@ -77,7 +77,7 @@ const OurServices = () => {
                 needs of tenants Learn more Property Development
               </p>
               <Link to="/property">
-                <h5>Learn more </h5>
+                <h5>Learn more →</h5>
               </Link>
             </div>
           </div>
@@ -94,7 +94,7 @@ const OurServices = () => {
                 and leveraging technology. Learn more Property Development
               </p>
               <Link to="/farm">
-                <h5>Learn more </h5>
+                <h5>Learn more →</h5>
               </Link>
             </div>
           </div>
@@ -111,7 +111,7 @@ const OurServices = () => {
                 Learn more Property Development
               </p>
               <Link to="/driving">
-                <h5>Learn more </h5>
+                <h5>Learn more →</h5>
               </Link>
             </div>
           </div>

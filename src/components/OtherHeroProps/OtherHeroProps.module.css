@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  width: 60%;
+  width: 70%;
 }
 .heading h4 {
   color: var(--white, #fff);
@@ -48,8 +48,6 @@
 }
 
 .heading button {
-  width: 172px;
-  height: 77px;
   border: none;
   justify-content: center;
   align-items: center;
@@ -61,6 +59,8 @@
   font-style: normal;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding: 1rem;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -98,8 +98,6 @@
   }
 
   .heading button {
-    width: 160px;
-    height: 70px;
     font-size: 18px;
   }
 }
@@ -137,8 +135,6 @@
   }
 
   .heading button {
-    width: 140px;
-    height: 60px;
     font-size: 14px;
   }
 }
@@ -150,7 +146,7 @@
     width: 100%;
     margin: auto;
     margin-left: 4rem;
-    padding-top: 2rem;
+    padding-top: 0rem;
   }
   .heading {
     text-align: left;
@@ -158,7 +154,7 @@
   }
 
   .heading h1 {
-    font-size: 22px;
+    font-size: 27px;
   }
   .heading h4 {
     font-size: 16px;
@@ -168,7 +164,7 @@
     flex-direction: column;
   }
   .Text {
-    width: 90%;
+    width: 70%;
     margin-top: 0rem;
   }
   .Text p {
@@ -180,8 +176,6 @@
   }
 
   .heading button {
-    width: 140px;
-    height: 60px;
     border: none;
     font-size: 16px;
     margin-top: 1rem;

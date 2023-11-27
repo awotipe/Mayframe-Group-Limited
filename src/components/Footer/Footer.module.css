@@ -169,7 +169,7 @@
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 660px){
     .footerLogo{
         width: 35%;
         margin-bottom: 1rem;

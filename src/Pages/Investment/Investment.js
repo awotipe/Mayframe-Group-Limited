@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from "../../components/Header/Header"
+import Benefit from "../../components/Benefits/Benefits";
+import Hero from "../../components/InvestmentHero/InvestmentHero";
 
 const Investment = () => {
   return (
     <div>
         <Navbar/>
-        <h1>INVESTMENT</h1>
+        <Hero/>
+        <Benefit/>
     </div>
   )
 }

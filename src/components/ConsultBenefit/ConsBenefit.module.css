@@ -1,41 +1,50 @@
 .Container {
-  width: 90%;
-  margin: auto;
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
 .innerContainer {
-    width: 100%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
   display: grid;
   grid-template-columns: 33% 32% 32%;
   gap: 2rem;
 }
 
+.containerTop h3{
+  color: var(--black, #1F1F21);
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .mainContainer {
-/* width: 105%; */
+  /* width: 105%; */
   display: flex;
   flex-direction: column;
 }
-.textContainer h3{
-    color: var(--black, #1F1F21);
-font-family: Inter;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 600;
-padding-top: 1rem;
-padding-bottom: 1rem;
+.textContainer h3 {
+  color: var(--black, #1f1f21);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.textContainer p{
-color: var(--light-black, #515151);
-font-family: Lato;
-font-size: 1.3125rem;
-font-style: normal;
-text-align: left;
-line-height: 2rem;
-
+.textContainer p {
+  color: var(--light-black, #515151);
+  font-family: Lato;
+  font-size: 1.3125rem;
+  font-style: normal;
+  text-align: left;
+  line-height: 2rem;
 }
 .NumContainer {
   width: 3.75rem;
@@ -52,12 +61,12 @@ line-height: 2rem;
   font-style: normal;
   font-weight: 700;
 }
-.NumContainerB{
+.NumContainerB {
   width: 3.75rem;
   height: 3.75rem;
   border-radius: 0.5rem;
-  background-color:  #D0A693;;
-  color:  #FD5308;;
+  background-color: #d0a693;
+  color: #fd5308;
 }
 .NumContainerB p {
   margin-top: 1rem;
@@ -71,7 +80,7 @@ line-height: 2rem;
   height: 3.75rem;
   border-radius: 0.5rem;
   background-color: rgba(170, 125, 40, 0.25);
-  color: #AA7D28;
+  color: #aa7d28;
 }
 .NumContainerC p {
   margin-top: 1rem;
@@ -85,7 +94,7 @@ line-height: 2rem;
   height: 3.75rem;
   border-radius: 0.5rem;
   background-color: rgba(39, 114, 255, 0.25);
-  color: #2772FF;
+  color: #2772ff;
 }
 .NumContainerD p {
   margin-top: 1rem;
@@ -98,8 +107,8 @@ line-height: 2rem;
   width: 3.75rem;
   height: 3.75rem;
   border-radius: 0.5rem;
-  background-color:#B094C1;
-  color: #7B0BC1;;
+  background-color: #b094c1;
+  color: #7b0bc1;
 }
 .NumContainerE p {
   margin-top: 1rem;
@@ -109,84 +118,86 @@ line-height: 2rem;
   font-style: normal;
 }
 
-@media(max-width:1024px) {
-  
+@media (max-width: 1024px) {
   .innerContainer {
-      width: 95%;
-      margin: auto;
+    width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: 33% 34% 33%;
     gap: 2rem;
   }
-  
+
   .mainContainer {
     display: flex;
     flex-direction: column;
   }
-  .textContainer h3{
-  font-size: 1.2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  .textContainer h3 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  
-  .textContainer p{
-  font-size: 1.0rem;
-  text-align: left;
-  line-height: 1.4rem;
-  
+
+  .textContainer p {
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.4rem;
+  }
+
+  .containerTop h3{
+    font-size: 2rem;
   }
 }
-@media(max-width:768px) {
-  
+@media (max-width: 768px) {
   .innerContainer {
-      width: 95%;
-      margin: auto;
+    width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: 31% 31% 31%;
     gap: 2rem;
   }
-  
+
   .mainContainer {
     display: flex;
     flex-direction: column;
   }
-  .textContainer h3{
-  font-size: 1.0rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  .textContainer h3 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  
-  .textContainer p{
-  font-size: 0.8rem;
-  text-align: left;
-  line-height: 1.4rem;
-  
+
+  .textContainer p {
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1.4rem;
+  }
+
+  .containerTop h3{
+    font-size: 1.7rem;
   }
 }
-@media(max-width:425px) {
-  
+@media (max-width: 480px) {
   .innerContainer {
-      width: 95%;
-      margin: auto;
+    width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: 100%;
     gap: 2rem;
   }
-  
+
   .mainContainer {
     display: flex;
     flex-direction: column;
   }
-  .textContainer h3{
-  font-size: 1.2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  .textContainer h3 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  
-  .textContainer p{
-  font-size: 1.0rem;
-  text-align: left;
-  line-height: 1.4rem;
-  
+
+  .textContainer p {
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.4rem;
   }
 }

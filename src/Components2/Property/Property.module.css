@@ -1,4 +1,9 @@
 .container{
+    width: 100%;
+    margin: auto;
+}
+
+.innerContainer{
     width: 90%;
     padding-top: 5rem;
     margin: auto;
@@ -8,15 +13,19 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 6rem;
+    align-items: center;
+    gap: 3rem;
+}
+.construct2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    align-items: center;
+    gap: 3rem;
 }
 
-.engine{
-    margin-top: 6rem;
-}
 
 .engine h1{
-    width: 408px;
-    height: 48px;
     font-family: Lato;
     font-size: 40px;
     font-weight: 600;
@@ -27,8 +36,6 @@
  }
 
  .engine p{
-    width: 588px;
-    height: 196px;
     font-family: Lato;
     font-size: 21px;
     font-weight: 400;
@@ -36,154 +43,50 @@
     letter-spacing: 0em;
     text-align: left;
     color: #515151;
+ }
+
+ .engg img{
+   width: 100%;
+ }
+
+ .engine{
+   width: 50%;
  }
 
  .mode{
-    margin-top: 6rem;
-}
-
- .mode h1{
-    width: 588px;
-    height: 48px;
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F1F21;
- }
-
- .mode p{
-    width: 588px;
-    height: 151px;
-    font-family: Lato;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #515151;
+   width: 50%;
  }
 
  .wom{
-    margin-top: 6rem;
-}
-
- .wom h1{
-    width: 534px;
-    height: 48px;
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F1F21;
+   width: 50%;
  }
 
- .wom p{
-    width: 580px;
-    height: 232px;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #515151;
+ .rod{
+   width: 50%;
  }
 
-.rod h1{
-   width: 510px;
-   height: 58px;
-   font-family: Lato;
-   font-size: 48px;
-   font-weight: 600;
-   line-height: 58px;
-   letter-spacing: 0em;
-   color: #1F1F21;
-}
+ .rents{
+   width: 50%;
+ }
 
-.rod p{
-   width: 588px;
-   height: 146px;
-   font-family: Lato;
-   font-size: 21px;
-   font-weight: 400;
-   line-height: 28px;
-   letter-spacing: 0em;
-   color: #515151;
-}
+ .real{
+   width: 50%;
+ }
 
-.rod{
-   margin-top: 6rem;
-}
+ .ltd{
+   width: 50%;
+ }
 
-.rents h1{
-   width: 519px;
-   height: 48px;
-   font-family: Lato;
-   font-size: 40px;
-   font-weight: 600;
-   line-height: 48px;
-   letter-spacing: 0em;
-   color: #1F1F21;
-}
-
-.rents p{
-   width: 588px;
-   height: 257px;
-   font-family: Lato;
-   font-size: 21px;
-   font-weight: 400;
-   line-height: 28px;
-   letter-spacing: 0em;
-   color: #515151;
-}
-
-.rents{
-   margin-top: 6rem;
-}
-
-.real h1{
-   width: 588px;
-   height: 58px;
-   font-family: Lato;
-   font-size: 48px;
-   font-weight: 600;
-   line-height: 58px;
-   letter-spacing: 0em;
-   color: #1F1F21;
-}
-
-.real p{
-   width: 588px;
-   height: 199px;
-   font-family: Lato;
-   font-size: 21px;
-   font-weight: 400;
-   line-height: 28px;
-   letter-spacing: 0em;
-   color: #515151;
-}
-
-.real{
-   margin-top: 6rem;
-}
 
 .development{
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   gap: 3rem;
 }
 
-.ltd{
-   margin-top: 6rem;
-}
 
 .ltd h3{
-   width: 100px;
-   height: 29px;
    font-family: Lato;
    font-size: 24px;
    font-weight: 500;
@@ -193,8 +96,6 @@
 }
 
 .ltd h1{
-   width: 487px;
-   height: 96px;
    font-family: Lato;
    font-size: 40px;
    font-weight: 600;
@@ -204,8 +105,6 @@
 }
 
 .ltd p{
-   width: 587px;
-   height: 231px;
    font-family: Lato;
    font-size: 21px;
    font-weight: 400;
@@ -217,4 +116,123 @@
 .pict{
    display: flex;
    gap: 20px;
+   width: 50%;
 }
+
+.cran img{
+   width: 100%;
+}
+
+.engrr img{
+   width: 100%;
+}
+
+@media screen and (max-width: 950px){
+   .engine h1{
+      font-size: 30px;
+   }
+  
+   .engine p{
+      font-size: 18px;
+   }
+
+  .ltd h3{
+   font-size: 20px;
+}
+
+.ltd h1{
+   font-size: 30px;
+}
+
+.ltd p{
+   font-size: 18px;
+}
+
+.construct{
+   gap: 2rem;
+}
+.construct2{
+   gap: 2rem;
+}
+
+.development{
+   gap: 2rem;
+}
+
+.engg{
+   width: 45%;
+ }
+
+}
+
+@media screen and (max-width: 768px){
+   .engine h1{
+      font-size: 30px;
+      line-height: 35px;
+   }
+  
+   .engine p{
+      font-size: 16px;
+   }
+
+  
+   .ltd h3{
+      font-size: 20px;
+   }
+
+   .ltd h1{
+      font-size: 30px;
+      line-height: 35px;
+   }
+
+   .ltd p{
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 660px){
+   .construct{
+      gap: 2rem;
+      flex-direction: column;
+   }
+   .construct2{
+      gap: 2rem;
+      flex-direction: column-reverse;
+   }
+ 
+   .development{
+     flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+   }
+
+   .engg img{
+      width: 100%;
+    }
+   
+    .engine{
+      width: 100%;
+    }
+   
+   
+    .ltd{
+      width: 100%;
+    }
+
+    .pict{
+      width: 100%;
+    }
+
+    .cran{
+      width: 100%;
+   }
+   
+   .engrr{
+      width: 100%;
+   }
+
+   .engg{
+      width: 100%;
+    }
+}
+

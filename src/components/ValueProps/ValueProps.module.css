@@ -1,0 +1,92 @@
+.container{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;   
+}
+
+.topValue{
+    text-align: center;
+}
+
+.topValue h2{
+    color: var(--black, #1F1F21);
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 2rem;
+}
+
+.valueCards{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    width: 383px;
+}
+
+.card h5{
+    color: #2A2A2A;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1rem 0;
+}
+
+.card p{
+    color: #515151;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media screen and (max-width: 1024px) {
+    .card p{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .card p{
+        font-size: 14px;
+    }
+
+    .cardImage img{
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .card p{
+        font-size: 18px;
+    }
+
+    .valueCards{
+        display: block;
+    }
+
+    .card{
+        margin-bottom: 2rem;
+    }
+
+    .cardImage img{
+        width: 15%;
+    }
+    
+    .card p{
+        font-size: 14px;
+    }
+}

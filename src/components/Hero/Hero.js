@@ -13,6 +13,7 @@ const Hero = () => {
           we specialized in driving transformative 
           growth and success that assist 
           businesses in various domains."
+          link = "/contact"
         />
     </div>
   )
