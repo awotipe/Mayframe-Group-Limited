@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser'
 
 const Result = () => {
   return(
-    <p>Thank you for signing up, sit tight for the Mayfare experience.</p>
+    <p>Thank you! Your message has been sent successfuly.</p>
   );
 }
 
@@ -17,7 +17,7 @@ const ContactUsProps = (props) => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("Thank you for signing up, sit tight for the Mayfare experience.")
+          console.log("Thank you! Your message has been sent successfuly.")
         },
       (error) => {
         console.log(error.text);

@@ -65,7 +65,7 @@ const OurServices = () => {
         <div className={classes.service2}>
           <div className={classes.serviceCard3}>
             <img src={Property} alt="property" className={classes.myImage} />
-            <div className={classes.myText}>
+            <div className={classes.myText2}>
               <h2>Property Development</h2>
               <p>
                 Property Development Mayframe is actively involved in the real
@@ -83,7 +83,7 @@ const OurServices = () => {
           </div>
           <div className={classes.serviceCard3}>
             <img src={Farms} alt="farms" className={classes.myImage} />
-            <div className={classes.myText}>
+            <div className={classes.myText2}>
               <h2>Farms & Agro-Allied</h2>
               <p>
                 Farms & Agro-Allied With a focus on agriculture and farming,
@@ -100,7 +100,7 @@ const OurServices = () => {
           </div>
           <div className={classes.serviceCard3}>
             <img src={Driving} alt="driving" className={classes.myImage} />
-            <div className={classes.myText}>
+            <div className={classes.myText2}>
               <h2>Driving Academy</h2>
               <p>
                 Driving Academy Mayframe operates a leading driving academy that
@@ -108,7 +108,7 @@ const OurServices = () => {
                 Whether it's for beginners or experienced drivers looking to
                 enhance their skills, the academy offers a structured curriculum
                 and qualified instructors to ensure safe and confident driving..
-                Learn more Property Development
+                Learn more Property Development.
               </p>
               <Link to="/driving">
                 <h5>Learn more →</h5>

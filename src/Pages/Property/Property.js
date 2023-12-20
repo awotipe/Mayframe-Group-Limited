@@ -3,6 +3,7 @@ import Navbar from "../../components/Header/Header";
 import Properties from "../../Components2/Property/Property";
 import Hero from "../../components/PropertyHero/PropertyHero";
 import Herodriveprops from "../../components/Herodriveprops/Herodriveprops";
+import Form from "../../components/PropertyForm/PropertyForm";
 
 const Property = () => {
   return (
@@ -18,6 +19,7 @@ const Property = () => {
         textC = "Total Constructions "
         />
        <Properties/>
+       <Form/>
     </div>
   )
 }
