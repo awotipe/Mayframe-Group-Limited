@@ -1,7 +1,6 @@
 import React from 'react'
-import Navbar from '../../components/Header/Header'
-import Hero from '../../components/Hero/Hero'
-import Herodriveprops from '../../components/Herodriveprops/Herodriveprops'
+import Navbar from '../../components/HeaderConsult/HeaderConsult'
+import Hero from '../../components/HeroConsult/HeroConsult'
 import ConsultHero from '../../components/ConsultHero/ConsultHero'
 import ConsultServices from '../../components/ConsultServices/ConsultServices'
 import ConsBenefit from '../../components/ConsultBenefit/ConsBenefit'
@@ -13,14 +12,6 @@ const Consultancy = () => {
     <div>
         <Navbar/>
         <Hero/>
-        <Herodriveprops
-        headA = "100k+"
-        textA = "Satisfied Customers"
-        headB = "120k+"
-        textB = "Completed Projects"
-        headC = "15+"
-        textC = "Over 15 years of experience "
-        />
         <ConsultHero />
         <ConsultServices/>
         <ConsBenefit/>

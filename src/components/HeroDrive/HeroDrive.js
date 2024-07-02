@@ -6,6 +6,8 @@ const HeroDrive = () => {
   return (
     <div className={classes.outContainer}>
     <div className={classes.container}>
+        <h1>Driving Academy</h1>
+        <h4>HOME/DRIVING</h4>
     </div>
         <div className={classes.cardContainer}>
        <Herodriveprops 

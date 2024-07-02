@@ -1,7 +1,8 @@
 .container{
     width: 100%;
     margin: auto;
-    padding-top: 1rem;   
+    /* padding-top: 1rem;  */
+    margin-top: 4rem;  
 }
 .herotext {
     width: 90%;
@@ -9,8 +10,8 @@
     align-items: center; 
 }
 .heading{
-    text-align: left;
-    margin-top: 15rem;   
+    text-align: center;
+    /* margin-top: 16rem;    */
 }
 
 .heading h1 {
@@ -80,18 +81,12 @@ line-height: normal;
     }
 
     .heading h1 {
-    color: var(--white, #FFF);
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
     padding-bottom: .5rem;
     
     }
     .heading h4{
-        color: var(--white, #FFF);
-        font-family: Lato;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;

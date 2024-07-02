@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../../components/Header/Header"
+import Navbar from "../../components/HeaderInvest/HeaderInvest"
 import Benefit from "../../components/Benefits/Benefits";
 import Hero from "../../components/InvestmentHero/InvestmentHero";
 import Form from "../../components/InvestForm/InvestForm";

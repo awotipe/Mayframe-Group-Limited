@@ -11,6 +11,12 @@
     justify-content: space-between;
     gap: 5px;
 }
+
+
+.picsPacks{
+    width: 35%;
+}
+
 .firstText{
     width: 100%;
     text-align: left;
@@ -70,6 +76,9 @@
     margin-left: -4rem;
 }
 
+
+
+
 @media screen and (max-width: 1024px){
     .firstText h3{
         font-size: 40px;
@@ -86,7 +95,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 868px){
     .cardWrap{
         margin-top: 1.5rem;
         margin-bottom: 1rem;
@@ -98,6 +107,28 @@
 
     .welcomeMain p{
         font-size: 14px;
+    }
+
+    .mainContainer{
+        margin: auto;
+        width:90%;
+        display: block;
+    }
+
+    .picsPacks{
+        margin: auto;
+        width:90%;
+        margin-top: 3rem;
+    }
+
+    .imageCar{
+        width: 90%;
+        margin-left: 12rem;
+    }
+
+    .instructor{
+        margin-top: -20rem;
+        margin-left: 0rem;
     }
 
 }
@@ -116,7 +147,7 @@
     }
 
     .imageCar{
-        margin-left: 4rem;
+        margin-left: 3rem;
     }
 
     .instructor{

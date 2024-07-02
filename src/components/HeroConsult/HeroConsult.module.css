@@ -1,14 +1,13 @@
-.container{
-    width: 100%;
+.container {
+    width: 100;
     margin: auto;
     padding: 13rem 0;
-    background-image: url(../../assets/investBack.png);
+    background-image: url(../../assets/HeroConsult.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-bottom: 4rem; */
-}
-
-.container h1 {
+  }
+  
+  .container h1 {
     color: var(--white, #fff);
     font-family: Lato;
     font-size: 64px;
@@ -48,7 +47,7 @@
     .container {
       width: 100%;
       margin: auto;
-      background-image: url(../../assets/investBack.png);
+      background-image: url(../../assets/HeroConsult.png);
       background-repeat: no-repeat;
       background-size: cover;
     }

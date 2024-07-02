@@ -37,7 +37,7 @@ const OurServices = () => {
               </Link>
             </div>
           </div>
-          <div className={classes.serviceCard2}>
+          <div className={classes.serviceCard1}>
             <img
               src={Investment}
               alt="investment"

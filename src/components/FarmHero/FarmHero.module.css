@@ -1,9 +1,56 @@
 .container{
     width: 100%;
     margin: auto;
-    height: 120vh;
+    padding: 13rem 0;
     /* padding-top: 5rem; */
     background-image: url(../../assets/farmback.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container h1 {
+    color: var(--white, #fff);
+    font-family: Lato;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .container h4 {
+    color: var(--white, #fff);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  @media screen and  (max-width: 768px){
+      .container h1 {
+          font-size: 40px;
+          font-weight: 600;
+        }
+        
+        .container h4 {
+          font-size: 18px;
+        }
+  
+        .container{
+          width: 100%;
+          margin: auto;
+      }
+  }
+  
+  @media screen and  (max-width: 425px) {
+    .container {
+      width: 100%;
+      margin: auto;
+      background-image: url(../../assets/farmback.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  

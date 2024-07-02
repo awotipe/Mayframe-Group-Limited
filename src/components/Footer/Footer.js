@@ -79,9 +79,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div
-        className={classes.scrollUp}
-        onClick={() => {
+      <div className={classes.scrollUp} onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
       >

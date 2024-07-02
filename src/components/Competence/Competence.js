@@ -10,25 +10,23 @@ const Competence = () => {
         <div className={classes.starImage}>
             <img src={Star} alt="Star"/>
         </div>
-          <h2>Our competence is confirmed by a decade of experience</h2>
+          <h2>Our competence is confirmed by more than a decade of experience</h2>
         </div>
         <div className={classes.middle}>
             <hr/>
         </div>
         <div className={classes.number}>
           <div className={classes.number1}>
-            <h1>125k</h1>
+            <h1>125k+</h1>
             <p>
-              met sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
+              125k+ Projects Completed: This highlights the company's ability to consistently deliver results.
             </p>
           </div>
           <hr/>
           <div className={classes.number2}>
-            <h1>20%</h1>
+            <h1>15k+</h1>
             <p>
-              met sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
+               Over 15 Years of Experience: Proven Solutions for Your Needs.
             </p>
           </div>
         </div>

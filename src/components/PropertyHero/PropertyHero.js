@@ -1,16 +1,24 @@
 import React from 'react'
 import classes from "./PropertyHero.module.css";
-import OtherHeroProps from '../OtherHeroProps/OtherHeroProps';
+import Herodriveprops from "../../components/Herodriveprops/Herodriveprops";
 
 const PropertyHero = () => {
   return (
+    <div className={classes.outContainer}>
     <div className={classes.container}>
-    <OtherHeroProps
-     headA = "Where Imagination Transforms into Extraordinary Building"
-     btnText = "Make Enquiry"
-     paragraph ="Unleash your creativity with us and witness the remarkable transformation of your visions into breathtaking reality."
-     link = "/contact"
-    />
+      <h1>Property Development</h1>
+      <h4>HOME/PROPERTY</h4>
+    </div>
+     <div className={classes.cardContainer}>
+      <Herodriveprops
+        headA = "345"
+        textA = "Completed ProjectS"
+        headB = "100+"
+        textB = "Happy Clients"
+        headC = "124+"
+        textC = "Total Constructions "
+        />
+    </div>
 </div>
   )
 }

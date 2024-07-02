@@ -1,17 +1,25 @@
 import React from 'react'
 import classes from "./FarmHero.module.css";
-import OtherHeroProps from "../../components/OtherHeroProps/OtherHeroProps";
+import Herodriveprops from "../../components/Herodriveprops/Herodriveprops";
 
 const FarmHero = () => {
   return (
+    <div className={classes.outContainer}>
     <div className={classes.container}>
-    <OtherHeroProps
-     headA = "Empowering Agro Farms For Success"
-     btnText = "Make Enquiry"
-     paragraph ="Empowering Sustainable Agriculture and Agro-Allied Ventures."
-     link = "/contact"
-    />
-</div>
+        <h1>Farm & Agro Allied</h1>
+        <h4>HOME/FARM</h4>
+    </div>
+        <div className={classes.cardContainer}>
+        <Herodriveprops
+        headA = "100k+"
+        textA = "Farmers Joined with Us "
+        headB = "1000+"
+        textB = "Products Sold"
+        headC = "124+"
+        textC = "Total Constructions"
+        />
+    </div>
+    </div>
   )
 }
 

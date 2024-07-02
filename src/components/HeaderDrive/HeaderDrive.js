@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import classes from "./Header.module.css";
-import Logo from "../../assets/Logo.png";
+import classes from "./HeaderDrive.module.css";
+import Logo from "../../assets/LogoDrive.png";
 import { Link } from "react-router-dom";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Header = () => {
-  const [navOpen, setNavOpen] = useState(false);
+const HeaderDrive = () => {
+    const [navOpen, setNavOpen] = useState(false);
 
-  const handleNavToggle = () => {
-    setNavOpen(!navOpen);
-  };
-
-  const handleNavLinkClick = () => {
-    setNavOpen(false);
-  };
+    const handleNavToggle = () => {
+      setNavOpen(!navOpen);
+    };
+  
+    const handleNavLinkClick = () => {
+      setNavOpen(false);
+    };
   return (
     <div className={classes.container}>
       <div className={classes.innerContainer}>
@@ -64,7 +64,7 @@ const Header = () => {
         </header>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default HeaderDrive

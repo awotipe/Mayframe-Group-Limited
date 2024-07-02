@@ -31,30 +31,6 @@
     line-height: normal;
 }
 
-/* .topService h4::before{
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    color: #C19D59;
-    -webkit-text-stroke: 0.1vw #C19D59;
-    border-right: 2px solid #1429A9;
-    overflow: hidden;
-    animation: animate 6s linear infinite;
-} */
-
-/* @keyframes animate {
-    0%, 10%{
-        width: 0;
-    }
-
-    70%, 40%{
-        width: 100%;
-    }
-} */
-
 .topService h2{
     color: var(--black, #1F1F21);
     font-family: Lato;
