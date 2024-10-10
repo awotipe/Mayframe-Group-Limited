@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
           <div className={classes.follow}>
             <h4>Email</h4>
-            <p>consulting@mayframe-group.com</p>
+            <p>info@mayframe-group.com</p>
           </div>
         </div>
       </div>

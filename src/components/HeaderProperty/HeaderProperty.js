@@ -35,6 +35,9 @@ const HeaderProperty = () => {
             <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
               <li>About Us</li>
             </Link>
+            <Link to="/initiative" className={classes.navlink} onClick={handleNavLinkClick}>
+              <li>Initiative</li>
+            </Link>
             <Link to="/contact" className={classes.navlink} onClick={handleNavLinkClick}>
               <li>Contact Us</li>
             </Link>
@@ -56,6 +59,9 @@ const HeaderProperty = () => {
             </Link>
             <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
               <li>About Us</li>
+            </Link>
+            <Link to="/initiative" className={classes.navlink} onClick={handleNavLinkClick}>
+              <li>Initiative</li>
             </Link>
             <Link to="/contact" className={classes.navlink} onClick={handleNavLinkClick}>
               <li>Contact Us</li>

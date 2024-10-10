@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./Welcome.module.css";
 import bigImage from "../../assets/welcome.png";
-import {Link} from 'react-router-dom'
-
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -12,7 +11,7 @@ const Welcome = () => {
           <img src={bigImage} alt="welcome" />
         </div>
         <div className={classes.welcomeText}>
-            <h5>About Us</h5>
+          <h5>About Us</h5>
           <h2>Welcome to MayFrame Group</h2>
           <p>
             At Mayframe, we are committed to providing a wide range of
@@ -21,8 +20,8 @@ const Welcome = () => {
             services, exploring the world of farms and agriculture, or venturing
             into investment and property, we have you covered.
           </p>
-          <Link to='/about'>
-          <button>Learn more</button>
+          <Link to="/about">
+            <button>Learn more</button>
           </Link>
         </div>
       </div>

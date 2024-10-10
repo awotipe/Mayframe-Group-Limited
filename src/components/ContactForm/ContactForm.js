@@ -67,7 +67,7 @@ const ContactForm = () => {
                 <img src={Logob} alt="Mail" />
               </div>
               <div className={classes.aboutText}>
-                <p>consulting@mayframe-group.com</p>
+                <p>info@mayframe-group.com</p>
               </div>
             </div>
             <h5>Hours</h5>
@@ -91,26 +91,29 @@ const ContactForm = () => {
 
           <div className={classes.sectionFormA}>
             <form ref={form} onSubmit={sendEmail}>
-              <div className={classes.MyRow}>{result ? <Result /> : null} </div>
               <input
                 type="text"
                 name="FirstName"
                 placeholder="First Name"
+                required
               ></input>
               <input
                 type="text"
                 name="LastName"
                 placeholder="Last Name"
+                required
               ></input>
               <input
                 type="text"
                 name="Email"
                 placeholder="Email Address"
+                required
               ></input>
               <input
                 type="text"
                 name="Phone"
                 placeholder="Phone Number"
+                required
               ></input>
               <input
                 type="text"
@@ -119,6 +122,7 @@ const ContactForm = () => {
                 className={classes.MessagesA}
               ></input>
               <button>Send Message</button>
+              <div className={classes.MyRow}>{result ? <Result /> : null} </div>
             </form>
           </div>
         </div>

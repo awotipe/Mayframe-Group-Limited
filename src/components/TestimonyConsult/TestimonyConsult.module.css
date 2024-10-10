@@ -1,0 +1,201 @@
+.container {
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+  
+  .innerContainer {
+    width: 90%;
+    margin: auto;
+  }
+  .innerContainer h6 {
+    text-align: center;
+    color: var(--secondary-yellow, #c19d59);
+    font-size: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .innerContainer h1 {
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+  }
+  
+  .cardContainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-yellow, #c19d59);
+    background: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+    padding-top: 1rem;
+  }
+  
+  .cardText {
+    width: 95%;
+    margin: auto;
+  }
+  
+  .cardText p {
+    color: var(--light-black, #515151);
+    text-align: center;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1rem;
+  }
+  
+  .cardText h4 {
+    color: #1429A9;
+    font-size: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardText h5 {
+    color:  #c19d59;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @media (max-width: 1024px) {
+    .card {
+      width: 90%;
+      height: 350px;
+      text-align: center;
+      border-radius: 8px;
+      border: 1px solid var(--secondary-yellow, #c19d59);
+      background: #fff;
+      margin-bottom: 2rem;
+      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+      padding-top: 1rem;
+    }
+  }
+  
+  @media (max-width: 600px){
+    .card {
+      width: 90%;
+      height: 390px;
+      text-align: center;
+      border-radius: 8px;
+      border: 1px solid var(--secondary-yellow, #c19d59);
+      background: #fff;
+      margin-bottom: 2rem;
+      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+      padding-top: 1rem;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .container {
+      width: 100%;
+      margin: auto;
+      margin-top: 4rem;
+      margin-bottom: 5rem;
+    }
+  
+    .innerContainer {
+      width: 90%;
+      margin: auto;
+    }
+    .innerContainer h6 {
+      text-align: center;
+      color: var(--secondary-yellow, #c19d59);
+      font-size: 16px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .innerContainer h1 {
+      text-align: center;
+      color: #000;
+      font-size: 20px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 1rem;
+    }
+  
+    .cardContainer {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .imageDiv {
+      width: 20%;
+      margin: auto;
+      margin-top: 1.5rem;
+    }
+  
+    .card {
+      width: 85%;
+      height: 300px;
+      text-align: center;
+      border-radius: 8px;
+      border: 1px solid var(--secondary-yellow, #c19d59);
+      background: #fff;
+      margin-bottom: 2rem;
+      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+      padding-top: 1rem;
+    }
+    .cardText {
+      width: 95%;
+      margin: auto;
+    }
+  
+    .cardText p {
+      text-align: center;
+      font-size: 14px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 400;
+      margin: 1rem;
+    }
+  
+    .cardText h4 {
+      font-size: 16px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .cardText h5 {
+      font-size: 12px;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  

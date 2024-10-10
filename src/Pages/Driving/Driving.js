@@ -14,8 +14,8 @@ const driving = () => {
       <Hero/>
       <Welcome/>
       <Services/>
-      <Contact/>
       <Testimonials/>
+      <Contact/>
     </div>
   )
 }

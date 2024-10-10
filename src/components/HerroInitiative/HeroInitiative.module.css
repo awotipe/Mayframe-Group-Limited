@@ -1,0 +1,66 @@
+.container {
+    width: 100;
+    margin: auto;
+    padding: 15rem 0;
+    background-image: url(../../assets/initiative.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container h1 {
+    color: var(--white, #fff);
+    font-family: Lato;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .container h4 {
+    color: var(--white, #fff);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  @media screen and  (max-width: 768px){
+      .container h1 {
+          font-size: 40px;
+          font-weight: 600;
+        }
+        
+        .container h4 {
+          font-size: 18px;
+        }
+  
+        .container{
+          width: 100%;
+          margin: auto;
+      }
+  }
+  
+  @media screen and  (max-width: 425px) {
+    .container {
+      width: 100%;
+      margin: auto;
+      background-image: url(../../assets/initiative.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 10rem;
+      padding-bottom: 7rem;
+      }
+  
+      .container h1 {
+          font-size: 20px;
+          font-weight: 600;
+        }
+        
+        .container h4 {
+          font-size: 15px;
+        }
+  }
+  

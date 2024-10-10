@@ -185,3 +185,14 @@
     font-size: 25px;
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  .cardText p {
+    font-size: 14px;
+  }
+
+  .cardText h3 {
+    font-size: 20px;
+  }
+}

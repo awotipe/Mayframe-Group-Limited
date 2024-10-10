@@ -1,15 +1,30 @@
-.container{
+/* .container{
+   width: 100%;
+   margin-top: 5rem;
+} */
+
+.text1{
    width: 100%;
    background-image: url(../../assets/heroImage.png);
    background-repeat: no-repeat;
    background-size: cover;
    height: 100%;
+   margin-top: 5rem;
+}
+
+.text2{
+   width: 100%;
+   background-image: url(../../assets/secondHero.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   margin-top: 5rem;
 }
 
 .text{
     width: 90%;
     margin: auto;
-    padding: 8rem 0;
+    /* padding: 8rem 0; */
 }
 
 .text h1{
@@ -78,9 +93,9 @@
 }
 
 @media screen and (max-width: 480px){
-    .container{
+    /* .text1{
         background-image: url(../../assets/mobileBack.png);
-     }
+     } */
 
     .text h1{
         font-size: 30px;

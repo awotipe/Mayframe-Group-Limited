@@ -1,6 +1,7 @@
 .container{
     width: 100%;
-    background: #F7F8FF;
+    background: #C19D59;
+    /* background: #F7F8FF; */
     margin-top: 4rem;
 }
 
@@ -87,9 +88,10 @@
     bottom: 20px;
     right: 10px;
     z-index: 2;
-    fill: var(--secondary-yellow, #c19d59);
+    fill: #1429A9;
     width: 48px;
     height: 48px;
+    cursor: pointer;
   }
 
 @media screen and (max-width: 1024px){

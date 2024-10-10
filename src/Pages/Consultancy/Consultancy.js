@@ -4,7 +4,7 @@ import Hero from '../../components/HeroConsult/HeroConsult'
 import ConsultHero from '../../components/ConsultHero/ConsultHero'
 import ConsultServices from '../../components/ConsultServices/ConsultServices'
 import ConsBenefit from '../../components/ConsultBenefit/ConsBenefit'
-import Testimonials from '../../components/Testimonials/Testimonials'
+import Testimonials from '../../components/TestimonyConsult/TestimonyConsult'
 import ConsultForm from '../../components/ConsultForm/ConsultForm'
 
 const Consultancy = () => {

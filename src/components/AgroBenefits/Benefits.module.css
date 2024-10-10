@@ -1,0 +1,118 @@
+.container{
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.container h2{
+    width: 433px;
+    height: 48px;
+    top: 1024px;
+    left: 504px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 2rem;
+
+
+}
+.Benefitscards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.card h1{
+    
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: blue;
+
+}
+.card h4{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    width: 45%;
+
+}
+
+.card p{
+    /* width: 80% ; */
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 256px;
+    top: 1306px;
+    left: 120px;
+    margin-top: 1rem;
+
+}
+@media screen and (max-width:1024px) {
+    
+    .Benefitscards{
+        width: 95%;
+    }
+    .card h4{
+        width: 80%;
+        font-size: 35px;
+        
+    }
+    .card p{
+        
+        font-size: 18px;
+    }
+    
+}
+@media screen  and (max-width:768px){
+   
+    .container h2{
+        font-size: 33px;
+        text-align: center;
+    }
+    .Benefitscards {
+        gap: 1rem;
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    .card h4{
+        font-size: 26px;
+    }
+    .card p{
+        font-size: 16px;
+        line-height: 1.2rem;
+    }
+    
+}
+@media screen and (max-width:426px){
+
+    .container h2{
+        font-size: 24px;
+    }
+    .Benefitscards{
+        display: block;
+        height: 100%;
+    }
+    .card{
+        margin-bottom: -8rem;
+    }
+    .card h4{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+
+}

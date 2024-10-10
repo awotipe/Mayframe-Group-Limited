@@ -1,0 +1,243 @@
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.container h2{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.Consultancy{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.Consultancytext{
+    width: 50%;
+    
+}
+
+.Consultancytext h3{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+}
+
+.Consultancytext p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+
+}
+.Consultancy img{
+    width: 50%;
+}
+
+.LiveStock{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.LiveStock img{
+    width: 50%;
+}
+.LiveStocktext{
+    width: 50%;
+}
+.LiveStocktext h3{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.LiveStocktext p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.Arable{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.Arabletext{
+    width: 50%;
+}
+.Arabletext h3{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.Arabletext p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.Arable img{
+    width: 50%;
+}
+
+.Management{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.Management img{
+    width: 50%;
+}
+.Managementtext{
+    width: 50%;
+}
+.Management h3{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.Management p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about{
+    margin-top: 6rem;
+}
+
+.about h4{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;  
+    /* margin-bottom: 1rem; */
+    color: rgba(193, 157, 89, 1);
+}
+
+.aboutWrap{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.aboutText{
+    width: 50%; 
+}
+
+.aboutImage{
+    width: 50%; 
+}
+
+.aboutText h3{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+}
+
+.aboutText p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+
+}
+/* .aboutImage img{
+    width: 50%;
+} */
+
+@media screen and (max-width:768px){
+    .Consultancy{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LiveStock{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Arable{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Management{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aboutWrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutText{
+        width: 100%; 
+    }
+    
+    .aboutImage{
+        width: 100%; 
+    }
+
+    .Consultancytext{
+        width: 100%;
+    }
+
+    .Consultancy img{
+        width: 100%;
+    }
+
+    .LiveStocktext{
+        width: 100%;
+    }
+
+    .LiveStock img{
+        width: 100%;
+    }
+
+   .Arabletext{
+        width: 100%;
+    }
+
+    .Arable img{
+        width: 100%;
+    }
+
+    .Managementtext{
+        width: 100%;
+    }
+
+    .Management img{
+        width: 100%;
+    }
+}

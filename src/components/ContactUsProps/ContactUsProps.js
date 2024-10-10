@@ -13,7 +13,7 @@ const ContactUsProps = (props) => {
     const form = useRef()
     const sendEmail = (e) => {e.preventDefault();
     
-      emailjs.sendForm("service_fm9wxbi", "template_82zwegb", form.current, "A6AptbzQPnXjuVgNa")
+      emailjs.sendForm("service_eneqvnx", "template_va1rmwr", form.current, "quapwaVwgmnNAcf1N")
       .then(
         (result) => {
           console.log(result.text);
@@ -37,13 +37,13 @@ const ContactUsProps = (props) => {
             </div>
             <div className={classes.formContainer}>
               <form ref={form} onSubmit={sendEmail}>
-                <div className={classes.row}>{result ? <Result /> : null } </div>
                 <h3>Contact Us</h3>
-              <input type='text' name='FullName' placeholder='Full Name'></input>
-              <input type='text' name='Email' placeholder='Email Address'></input>
-              <input type='text' name='Phone' placeholder='Phone Number'></input>
+              <input type='text' name='FullName' placeholder='Full Name' required></input>
+              <input type='email' name='Email' placeholder='Email Address' required></input>
+              <input type='phone' name='Phone' placeholder='Phone Number' required></input>
               <input type='text' name='Message' placeholder='Message' className={classes.Messages}></input>
               <button>Send Message</button>
+              <div className={classes.row}>{result ? <Result /> : null } </div>
               </form>
             </div>
           

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;   
+    background-image: url(../../Agro/images/heroBack.png);
+    height: 80vh;
+    /* position: relative; */
+
+}
+.text{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.text h1{
+    width: 530px;
+    height: 154px;
+    top: 300px;
+    left: 120px;
+    font-family: Lato;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 1rem;
+    
+
+
+}
+.text p{
+    width: 527px;
+    height: 58px;
+    top: 470px;
+    left: 120px;
+    color: white;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1rem;
+
+
+}
+.text button{
+    
+    background: #1429A9;
+    padding: 1rem 1rem;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.property{
+    width: 80%;
+    margin: auto;
+    background: white;
+    height: 8rem;
+    margin-top: 15 rem;
+    padding: 1.5rem;
+    display: flex;
+    border-bottom: 1.5px solid rgba(227, 227, 227, 0.93);
+    
+    
+    
+}
+.propertycontent{
+    display: flex;
+    text-align: center;
+    /* justify-content: space-between; */
+    width: 100%;
+
+
+}
+.farmer{
+    width: 50%;
+
+}
+.farmer h1{
+    color: #1429A9;
+
+    
+}
+
+.product{
+    width: 50%;
+    gap: 3rem;
+
+  
+    
+}
+.product h1{
+    color: #1429A9;
+    text-align: center;
+    /* margin-left: 4rem; */
+}
+.product hr{
+    width: 2px;
+    height: 4rem;
+}
+.construction{
+    width: 50%;
+    gap: 3rem;
+    /* display: flex;  */
+ 
+}
+.construction h1{
+    color: #1429A9;
+}
+.construction hr{
+    width: 2px;
+    height: 4rem;
+}
+
+@media screen and (max-width:768px){
+    .text h1{
+        font-size: 50px;
+    }
+    .text p{
+        width: 70%;
+        font-size: 20px;
+    }
+    .text button{
+        padding: .5rem .5rem;
+        font-size: 20px;
+       
+    
+    }
+    
+    
+}
+@media screen and (max-width:426px) {
+ .container .text h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .farmer h1{
+        font-size: 28px;
+    }
+    .farmer p{
+        font-size: 16px;
+    }
+    .product h1{
+        font-size: 28px;
+    }
+    .construction h1{
+        font-size: 28px;
+    }
+    
+    
+}
+
+

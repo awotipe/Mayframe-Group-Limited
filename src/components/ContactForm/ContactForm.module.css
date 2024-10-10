@@ -131,6 +131,12 @@ input::placeholder {
   border: none;
   padding: 1rem 2rem;
 }
+
+.MyRow{
+  
+  padding: 0.5rem;
+}
+
 @media (max-width: 1024px) {
   .container {
     width: 100%;

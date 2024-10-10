@@ -16,7 +16,7 @@
   width: 50%;
   border-radius: 8px;
   background: #fff;
-  height: 90vh;
+  /* height: 90vh; */
   margin: 2rem 0;
   text-align: center;
 }
@@ -74,7 +74,7 @@ form h3 {
 .formContainer button {
   border-radius: 8px;
   background: #1429a9;
-  height: 56.168px;
+  /* height: 56.168px; */
   width: 90%;
   color: #fff;
   font-size: 20px;
@@ -83,6 +83,8 @@ form h3 {
   line-height: 133.5%;
   cursor: pointer;
   border: none;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 1024px) {
@@ -97,14 +99,14 @@ form h3 {
     width: 40%;
   }
 
-  /* .formContainer {
+  .formContainer {
     width: 55%;
     border-radius: 8px;
     background: #fff;
-    height: 600px;
+    /* height: 600px; */
     margin-top: 3rem;
     text-align: center;
-  } */
+  }
   .textssContainer h1 {
     color: var(--white, #fff);
     font-size: 25px;
@@ -125,14 +127,15 @@ form h3 {
     width: 50%;
   }
 
-  /* .formContainer {
+  .formContainer {
     width: 60%;
     border-radius: 8px;
     background: #fff;
-    height: 515px;
+    /* height: 515px; */
     margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
-  } */
+  }
 
   .textssContainer h1 {
     color: var(--white, #fff);
@@ -146,7 +149,7 @@ form h3 {
     width: 90%;
     border-radius: 8px;
     border: 1px solid rgba(117, 117, 117, 1);
-    height: 35px;
+    /* height: 35px; */
     background: rgba(225, 225, 225, 1);
     align-items: center;
     gap: 0.5rem;
@@ -189,7 +192,7 @@ form h3 {
   .formContainer button {
     border-radius: 8px;
     background: #1429a9;
-    height: 40px;
+    /* height: 40px; */
     width: 70%;
     color: #fff;
     font-size: 14px;
@@ -199,11 +202,12 @@ form h3 {
     cursor: pointer;
   }
 }
-@media (max-width: 480px) {
+@media screen and  (max-width: 480px) {
   .innerContainer {
     width: 90%;
     display: block;
     text-align: center;
+    padding-bottom: 1rem;
   }
 
   .textssContainer {
@@ -215,8 +219,9 @@ form h3 {
     width: 100%;
     border-radius: 8px;
     background: #fff;
-    height: 75vh;
-    margin: 2rem 0;
+    /* height: 515px; */
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
     text-align: center;
   }
 
