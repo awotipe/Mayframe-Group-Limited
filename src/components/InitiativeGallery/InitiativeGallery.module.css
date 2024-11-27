@@ -1,0 +1,40 @@
+.container{
+    padding-top: 9rem;
+}
+
+.batch{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.batch1{
+    border-top: 5px solid #034D82;
+    border-radius: 10px;
+}
+
+.batch1:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+.batch1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    .batch{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}

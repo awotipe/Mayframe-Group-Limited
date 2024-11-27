@@ -6,7 +6,7 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 
 const Result = () => {
-  return <p>Thank you for signing up, sit tight for the Mayfare experience.</p>;
+  return <p>Thank you for signing up, sit tight for the Mayframe experience.</p>;
 };
 
 const ContactForm = () => {
@@ -26,7 +26,7 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           console.log(
-            "Thank you for signing up, sit tight for the Mayfare experience."
+            "Thank you for signing up, sit tight for the Mayframe experience."
           );
         },
         (error) => {
@@ -50,7 +50,7 @@ const ContactForm = () => {
           <div className={classes.sectionText}>
             <p>
               We would love to speak with you. Feel free to reach out using the
-              details below
+              details below.
             </p>
 
             <div className={classes.aboutInfo}>

@@ -1,0 +1,111 @@
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+margin-bottom: 5rem;
+}
+
+.aboutText {
+    width: 48%;
+}
+
+.aboutText h1{
+    font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+color: #C19D59;
+}
+
+.aboutText h2{
+    font-family: Lato;
+font-size: 39.5px;
+font-weight: 600;
+line-height: 48px;
+color: #1F1F21;
+}
+
+.aboutText p{
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.04px;
+    color:  #515151;
+}
+
+.aboutImage {
+    width: 50%;
+}
+
+.aboutImage img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutText h1{
+    font-size: 21px;
+    line-height: 28.8px;
+    }
+
+    .aboutText h2{
+    font-size: 30px;
+    line-height: 43px;
+    }
+
+    .aboutText p{
+        font-size: 16px;
+        line-height: 28.04px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .aboutText {
+        width: 52%;
+    }
+
+    .aboutImage {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutText h1{
+        font-size: 18px;
+        line-height: 24px;
+        }
+
+        .aboutText h2{
+            font-size: 25px;
+            line-height: 39px;
+            }
+        
+            .aboutText p{
+                font-size: 14px;
+                line-height: 26px;
+            }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        display: block;
+    margin-bottom: 3rem;
+    }
+
+    .aboutText {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .aboutImage {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .aboutText h2{
+        font-size: 21px;
+        line-height: 39px;
+        }
+}

@@ -27,20 +27,26 @@
     text-align: center;
   }
   
-  @media screen and  (max-width: 768px){
+  @media screen and  (max-width: 800px){
+    .container {
+      width: 100;
+      margin: auto;
+      padding: 9rem 0;
+      background-image: url(../../assets/initiative.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
       .container h1 {
-          font-size: 40px;
+          font-size: 30px;
           font-weight: 600;
+          padding-top: 4rem;
         }
         
         .container h4 {
-          font-size: 18px;
+          font-size: 16px;
         }
   
-        .container{
-          width: 100%;
-          margin: auto;
-      }
   }
   
   @media screen and  (max-width: 425px) {
@@ -49,14 +55,14 @@
       margin: auto;
       background-image: url(../../assets/initiative.png);
       background-repeat: no-repeat;
-      background-size: cover;
-      padding-top: 10rem;
-      padding-bottom: 7rem;
+      background-size: contain;
+      padding: 8rem 0;
       }
   
       .container h1 {
           font-size: 20px;
           font-weight: 600;
+          padding-top: 0rem;
         }
         
         .container h4 {

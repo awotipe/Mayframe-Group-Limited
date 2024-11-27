@@ -7,7 +7,8 @@ const ContactHero = () => {
     <div className={classes.container}>
          <ContactHeroProps 
          head ="Contact Us" 
-         subhead= "HOME/CONTACT US"/>
+         subhead= "HOME/CONTACT US"
+         />
     </div>
   )
 }

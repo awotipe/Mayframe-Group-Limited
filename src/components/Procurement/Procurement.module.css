@@ -1,0 +1,120 @@
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.proImage {
+  width: 49%;
+}
+
+.proImage img {
+  width: 100%;
+}
+
+.proText {
+  width: 49%;
+}
+
+.proText h1 {
+  font-family: Lato;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 46.56px;
+  color: #1f1f21;
+}
+
+.proText p {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28.04px;
+  color: #515151;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    gap: 2rem;
+  }
+
+  .proText {
+    width: 51%;
+  }
+
+  .proText h1 {
+    font-size: 40px;
+  }
+
+  .proText p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .proText h1 {
+    font-size: 35px;
+    line-height: 38.56px;
+  }
+
+  .proText p {
+    font-size: 16px;
+    line-height: 25.04px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 1rem;
+  }
+
+  .proText h1 {
+    font-size: 30px;
+    line-height: 36.56px;
+  }
+
+  .proText p {
+    font-size: 14px;
+    line-height: 23.04px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+    margin-bottom: 3rem;
+  }
+
+  .proImage {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .proText {
+    width: 85%;
+  }
+
+  .proText h1 {
+    font-size: 25px;
+    line-height: 29.6px;
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .proText {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .proText {
+    width: 100%;
+  }
+
+  .proText h1 {
+    width: 95%;
+    margin-bottom: 0.5rem;
+  }
+}

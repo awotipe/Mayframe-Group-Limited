@@ -77,7 +77,7 @@ line-height: normal;
         margin: auto;  
     }
     .heading{
-        margin-top: 12rem;   
+        margin-top: 5rem;   
     }
 
     .heading h1 {
@@ -93,7 +93,7 @@ line-height: normal;
         line-height: normal;
     }
 }
-@media(max-width:480px) {
+@media(max-width:600px) {
 
     .container{
         width: 100%;
@@ -105,11 +105,11 @@ line-height: normal;
         margin: auto;  
     }
     .heading{
-        margin-top: 12rem;   
+        margin-top: 0rem;   
     }
 
     .heading h1 {
-    font-size: 40px;    
+    font-size: 25px;    
     }
     .heading h4{
         font-size: 16px;

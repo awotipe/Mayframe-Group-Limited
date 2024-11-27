@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./HeaderProperty.module.css";
 import Logo from "../../assets/LogoProperty.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -26,21 +26,21 @@ const HeaderProperty = () => {
             </Link>
           </div>
           <nav className={classes.navMenu}>
-            <Link to="/" className={classes.navlink} onClick={handleNavLinkClick}>
+            <NavLink to="/" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Home</li>
-            </Link>
-            <Link to="/services" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/services" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Services</li>
-            </Link>
-            <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>About Us</li>
-            </Link>
-            <Link to="/initiative" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/initiative" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Initiative</li>
-            </Link>
-            <Link to="/contact" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Contact Us</li>
-            </Link>
+            </NavLink>
           </nav>
       <div className={classes.hamburger} onClick={handleNavToggle}>
         {!navOpen ? (
@@ -49,23 +49,23 @@ const HeaderProperty = () => {
           <AiOutlineClose className={classes.Icons} />
         )}
       </div>
-      <div className={navOpen ? classes.active : classes.mobileMenu}>
+      <div className={navOpen ? classes.actives : classes.mobileMenu}>
       <nav className={classes.mobileNav}>
-            <Link to="/" className={classes.navlink} onClick={handleNavLinkClick}>
+            <NavLink to="/" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Home</li>
-            </Link>
-            <Link to="/services" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/services" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Services</li>
-            </Link>
-            <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>About Us</li>
-            </Link>
-            <Link to="/initiative" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/initiative" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Initiative</li>
-            </Link>
-            <Link to="/contact" className={classes.navlink} onClick={handleNavLinkClick}>
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? classes.active : "")} onClick={handleNavLinkClick}>
               <li>Contact Us</li>
-            </Link>
+            </NavLink>
           </nav>
           </div>
         </header>

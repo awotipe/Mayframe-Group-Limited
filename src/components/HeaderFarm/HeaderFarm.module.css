@@ -1,3 +1,7 @@
+.navMenu .active{
+    color: red;
+}
+
 .container{
     width: 100%;
     z-index: 2;
@@ -66,7 +70,7 @@ a {
         transition:0.3s;
     }
     
-    .active{
+    .actives{
         top: 100px; 
         display: flex;
         flex-direction: column;
@@ -78,7 +82,7 @@ a {
         background-color: #1429A9;
         align-items:center;
         transition:0.3s;
-        padding: 2rem 0;
+        padding: 1rem 0;
     }
 
     .hamburger{
@@ -93,8 +97,8 @@ a {
         width: 70%;
     }
 
-    .active li{
-        padding: 2.3rem 0;
+    .actives li{
+        padding: 1rem 0;
         margin: 0 1rem;
         color: #fff;
         border-bottom:1px solid #fff;

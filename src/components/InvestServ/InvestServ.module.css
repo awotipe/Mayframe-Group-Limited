@@ -1,0 +1,151 @@
+.container {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.container h1 {
+  font-family: Lato;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentText {
+  width: 49%;
+}
+
+.contentText h2 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.56px;
+  color: #1f1f21;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.Text2 {
+  display: flex;
+  align-items: first baseline;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.Text2 p {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28.04px;
+  color: #515151;
+}
+
+.contentImage {
+  width: 49%;
+}
+
+.contentImage img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .contentText h2 {
+        font-size: 40px;
+        line-height: 46.56px;
+        width: 100%;
+      }
+
+      .Text2Image {
+        width: 5%;
+    }
+
+      .Text2 p {
+        font-size: 18px;
+      }
+      
+      
+}
+
+@media screen and (max-width: 900px) {
+    .Text2Image {
+        width: 7%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 35px;
+        line-height: 53px;
+        margin-bottom: 1rem;
+      } 
+
+      .contentText h2 {
+        font-size: 35px;
+        line-height: 43px;
+      }
+
+      .Text2Image {
+        width: 8%;
+    }
+
+      .Text2 p {
+        font-size: 16px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        margin-bottom: 3rem;
+      }
+
+      .container h1 {
+        font-size: 25px;
+        line-height: 29px;
+        margin-bottom: 1rem;
+      } 
+
+      .contentText h2 {
+        font-size: 25px;
+        line-height: 43px;
+        width: 90%;
+      }
+    .content {
+        display: block;
+      } 
+      
+      .contentText {
+        width: 100%;
+      }
+
+      .contentImage {
+        width: 100%;
+      }
+
+      .Text2Image {
+        width: 5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Text2 {
+        gap: .5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .Text2Image {
+        width: 7%;
+    }
+
+    .Text2 p {
+        font-size: 14px;
+      }
+}
