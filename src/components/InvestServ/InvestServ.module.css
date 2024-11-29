@@ -114,9 +114,9 @@
       } 
 
       .contentText h2 {
-        font-size: 25px;
+        font-size: 23px;
         line-height: 43px;
-        width: 90%;
+        width: 100%;
       }
     .content {
         display: block;
