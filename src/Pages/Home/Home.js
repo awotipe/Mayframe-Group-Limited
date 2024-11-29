@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from "./Home.module.css"
 import Navbar from '../../components/Header/Header'
 import Hero from '../../components/HeroHome/Hero2'
 import Welcome from '../../components/Welcome/Welcome'
@@ -9,7 +10,7 @@ import Competence from '../../components/Competence/Competence'
 
 const Home = () => {
   return (
-    <div>
+    <div className={classes.container}>
         <Navbar/>
         <Hero/>
         <Welcome/>

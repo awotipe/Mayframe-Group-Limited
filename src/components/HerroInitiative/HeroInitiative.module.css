@@ -29,7 +29,7 @@
   
   @media screen and  (max-width: 800px){
     .container {
-      width: 100;
+      width: 100%;
       margin: auto;
       padding: 9rem 0;
       background-image: url(../../assets/initiative.png);
@@ -50,23 +50,23 @@
   }
   
   @media screen and  (max-width: 425px) {
-    .container {
+    /* .container {
       width: 100%;
       margin: auto;
       background-image: url(../../assets/initiative.png);
       background-repeat: no-repeat;
       background-size: contain;
       padding: 8rem 0;
-      }
+      } */
   
       .container h1 {
-          font-size: 20px;
+          font-size: 19px;
           font-weight: 600;
-          padding-top: 0rem;
+          /* padding-top: 0rem; */
         }
         
         .container h4 {
-          font-size: 15px;
+          font-size: 14px;
         }
   }
   

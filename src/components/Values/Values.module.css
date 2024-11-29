@@ -26,21 +26,24 @@
     width: 90%;
     margin: auto;
     display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    gap: 2rem;
+    /* margin-bottom: 2rem; */
+    height: 80vh;
     /* text-align: center; */
 }
 
 .card{
-    width: 380px;
+    width: 100%;
     padding: 1rem;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
+    height: 60%;
 }
 
 .card:hover{
     background: #1429A9;
     color: #fff;
+    border-radius: 10px;
 }
 
 
@@ -65,8 +68,31 @@
 
 .card:hover{
     transform: scale(1.1);
-    transition: 0.7s;
+    transition: 0.5s;
   }
+
+@media screen and (max-width: 1030px){
+    .valueCards{
+        gap: 2rem;
+        margin-bottom: 2rem;
+        height: 80vh;
+    }
+    
+    .card{
+        width: 100%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card{
+        width: 100%;
+        height: 90%;
+    }
+    .card p{
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .card p{
@@ -88,26 +114,26 @@
         font-size: 14px;
     }
 
-    .valueCards{
-        display: block;
-    }
-
-    .card{
-        margin-bottom: 2rem;
-        width: 370px;
-    }
-
+  
     .cardImage img{
         width: 15%;
     }
 
+    .valueCards{
+        display: block;
+        height: 100%;
+    }
+
+    .card{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+    }
 
 }
 
 @media screen and (max-width: 375px){
-    .card{
-        margin-bottom: 2rem;
-        width: 280px;
-    }
+ 
 }
 

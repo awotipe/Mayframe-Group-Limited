@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   margin: auto;
-  padding: 14rem 0;
+  padding: 13rem 0;
   background-image: url(../../assets/About.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,12 +13,12 @@
     margin: auto;
     background-image: url(../../assets/About.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 9rem 0;
   }
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
   .container {
     width: 100%;
     margin: auto;
@@ -27,4 +27,4 @@
     background-size: contain;
     padding: 7rem 0;
   }
-}
+} */
