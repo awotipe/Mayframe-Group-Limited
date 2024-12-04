@@ -47,13 +47,13 @@ const OurServices = () => {
               <h2>Mayframe Investment</h2>
               <p>
                 Mayframe provides investment services to individuals and
-                businesses seeking financial growth and diversification. The
-                company offers a range of investment opportunities across
-                different sectors, including real estate, stocks, bonds, and
-                emerging markets. With a diligent approach to risk management
-                and a deep understanding of market dynamics, Mayframe Group
-                guides its clients in making informed investment decisions that
-                align with their goals and risk tolerance.
+                businesses seeking financial growth and diversification. We
+                offer a range of investment opportunities across different
+                sectors, including real estate, stocks, bonds, and emerging
+                markets. With a diligent approach to risk management and a deep
+                understanding of market dynamics, Mayframe Group guides its
+                clients in making informed investment decisions that align with
+                their goals and risk tolerance.
               </p>
               <Link to="/investment">
                 <h5>Learn more →</h5>
@@ -68,13 +68,13 @@ const OurServices = () => {
             <div className={classes.myText2}>
               <h2>Property Development</h2>
               <p>
-                Property Development Mayframe is actively involved in the real
-                estate sector, offering a comprehensive range of property
-                services. This includes property development, sales, leasing,
-                and property management. The company identifies promising real
-                estate opportunities, develops residential and commercial
-                properties, and offers flexible leasing options to suit the
-                needs of tenants Learn more Property Development
+                Mayframe is actively involved in the real estate sector,
+                offering a comprehensive range of property services. This
+                includes property development, sales, leasing, and property
+                management. The company identifies promising real estate
+                opportunities, develops residential and commercial properties,
+                and offers flexible leasing options to suit the needs of
+                tenants.
               </p>
               <Link to="/property">
                 <h5>Learn more →</h5>
@@ -86,12 +86,12 @@ const OurServices = () => {
             <div className={classes.myText2}>
               <h2>Farms & Agro-Allied</h2>
               <p>
-                Farms & Agro-Allied With a focus on agriculture and farming,
-                Mayframe has established a strong presence in the agro-industry.
-                The company owns and manages a portfolio of farms that cultivate
-                a variety of crops and engage in livestock rearing. By
-                implementing modern farming techniques, sustainable practices,
-                and leveraging technology. Learn more Property Development
+                With a focus on agriculture and farming, Mayframe has
+                established a strong presence in the agro-industry. The company
+                owns and manages a portfolio of farms that cultivate a variety
+                of crops and engage in livestock rearing. By implementing modern
+                farming techniques, sustainable practices, and leveraging
+                technology.
               </p>
               <Link to="/farm">
                 <h5>Learn more →</h5>
@@ -103,12 +103,11 @@ const OurServices = () => {
             <div className={classes.myText2}>
               <h2>Driving Academy</h2>
               <p>
-                Driving Academy Mayframe operates a leading driving academy that
-                aims to provide comprehensive and professional driver training.
-                Whether it's for beginners or experienced drivers looking to
-                enhance their skills, the academy offers a structured curriculum
-                and qualified instructors to ensure safe and confident driving..
-                Learn more Property Development.
+                Mayframe operates a leading driving academy that aims to provide
+                comprehensive and professional driver training. Whether it's for
+                beginners or experienced drivers looking to enhance their
+                skills, the academy offers a structured curriculum and qualified
+                instructors to ensure safe and confident driving..
               </p>
               <Link to="/driving">
                 <h5>Learn more →</h5>
