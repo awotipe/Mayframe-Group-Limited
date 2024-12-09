@@ -5,6 +5,7 @@ import About from "../../components/Initiative/Initiative";
 import Gallery1 from "../../components/Gallery/Gallery"
 import Competence from "../../components/Competence/Competence";
 import Testimony from '../../components/TestimonyConsult/TestimonyConsult'
+import Modal from "../../components/Modal/Modal"
 
 
 const Development = () => {
@@ -16,6 +17,7 @@ const Development = () => {
         <Gallery1/>
         <Competence/>
         <Testimony/>
+        <Modal/>
     </div>
   )
 }
