@@ -13,7 +13,13 @@ const ContactUsProps = (props) => {
     const form = useRef()
     const sendEmail = (e) => {e.preventDefault();
     
-      emailjs.sendForm("service_eneqvnx", "template_va1rmwr", form.current, "quapwaVwgmnNAcf1N")
+      emailjs
+      .sendForm(
+        "service_jf4mk4h",
+        "template_4abcjbu",
+        form.current,
+        "WRh1PpxkX7KPgx75r"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -38,7 +44,8 @@ const ContactUsProps = (props) => {
             <div className={classes.formContainer}>
               <form ref={form} onSubmit={sendEmail}>
                 <h3>Contact Us</h3>
-              <input type='text' name='FullName' placeholder='Full Name' required></input>
+              <input type='text' name='firstName' placeholder='First Name' required></input>
+              <input type='text' name='lastName' placeholder='Last Name' required></input>
               <input type='email' name='Email' placeholder='Email Address' required></input>
               <input type='phone' name='Phone' placeholder='Phone Number' required></input>
               <input type='text' name='Message' placeholder='Message' className={classes.Messages}></input>

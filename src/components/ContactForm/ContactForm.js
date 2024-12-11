@@ -6,7 +6,7 @@ import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 
 const Result = () => {
-  return <p>Thank you for signing up, sit tight for the Mayframe experience.</p>;
+  return <p>Thank you! Your message has been sent successfully.</p>;
 };
 
 const ContactForm = () => {
@@ -17,16 +17,16 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_fm9wxbi",
-        "template_82zwegb",
+        "service_jf4mk4h",
+        "template_4abcjbu",
         form.current,
-        "A6AptbzQPnXjuVgNa"
+        "WRh1PpxkX7KPgx75r"
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log(
-            "Thank you for signing up, sit tight for the Mayframe experience."
+            "Thank you! Your message has been sent successfully."
           );
         },
         (error) => {
@@ -93,13 +93,13 @@ const ContactForm = () => {
             <form ref={form} onSubmit={sendEmail}>
               <input
                 type="text"
-                name="FirstName"
+                name="firstName"
                 placeholder="First Name"
                 required
               ></input>
               <input
                 type="text"
-                name="LastName"
+                name="lastName"
                 placeholder="Last Name"
                 required
               ></input>
